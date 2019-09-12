@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Creative Computing - Autumn Winter 2019: Lecture 1: Counting</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/whiteJGL.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement('link');
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName('head')[0].appendChild(link);
+		</script>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Creative Computing</h2>
+					<p>Joel Gethin Lewis</p>
+					<p>Lecture 1: Counting</p>
+				</section>
+				<section>
+					<h3>What I'm going to talk about now:</h3>
+					<ol start=0>
+						<li>Introduce myself.</li>
+						<li>The aim of this course.</li>
+						<li>Counting in decimal, unary and binary.</li>
+						<li>Memory in computers, storing numbers and words.</li>
+						<li>How big things are.</li>
+						<li>Bonus: really, really, really big numbers.</li>
+					</ol>
+				</section>
+				<section>
+					<h3>0. Introduce myself.</h3>
+					<ul>
+						<li>Born in London, grew up in Wales on a mountain.</li>
+						<li>BSc in Maths and Computer Science at <a href="http://www.imperial.ac.uk/">Imperial</a>, MA
+							in Interaction Design at <a href="https://www.rca.ac.uk/">Royal College of Art</a>.</li>
+						<li>One year at <a href="http://www.fabrica.it/">Fabrica</a>.</li>
+						<li>Three years at <a href="http://uva.co.uk/">UnitedVisualArtists</a>.</li>
+						<li>Eight years at <a href="https://vimeo.com/hellicarandlewis">Hellicar&Lewis</a>.</li>
+						<li>Three years of teaching at CSM and RCA and <a href="https://joelgethinlewis.com/">working on
+								my own projects</a>.</li>
+						<li>Watch this space... (-;</li>
+					</ul>
+				</section>
+				<section>
+					<h3>1. The aim of this course.</h3>
+					<ul>
+						<li>Brain exploding and some coding.</li>
+						<li>I'm going to reference <a href="https://www.wikipedia.org/">Wikipedia</a> a lot in this
+							course, because I think it's one of the best things that humanity has ever made, and I wish
+							I'd had it when I was young. Also it's free - I hated it when teachers would reference books
+							that I couldn't afford when I was at university.</li>
+					</ul>
+				</section>
+				<section>
+					<h3>1. The aim of this course (continued)</h3>
+					<ul>
+						<li>I only ask that you pay attention and ask questions if you have them. I'd really encourage
+							you to take the time to watch the films and read the references I put up. Think of them as
+							<a href="https://en.wikipedia.org/wiki/Cheating_in_video_games#Cheat_codes">cheat codes</a>
+							to get you to the next level quicker than I did.</li>
+						<li>To <b>introduce</b> lots of interesting concepts from many areas so that you know the magic
+							word to search for if you want to know more. <a
+								href="https://en.wikipedia.org/wiki/Obfuscation">Obfuscation</a> is a BIG problem.</li>
+						<li><b>Not</b> to teach you how to code, but to start you on that path and point you in the
+							right direction.</li>
+						<li><b>Not</b> to teach the history of art, computing or graphic design.</li>
+					</ul>
+				</section>
+				<section>
+					<h3>1. The aim of this course (continued).</h3>
+					<ul>
+						<li>To teach you see problems at many levels (<a
+								href="https://en.wikipedia.org/wiki/Abstraction">abstraction</a>), break down problems
+							(<a
+								href="https://en.wikipedia.org/wiki/Decomposition_(computer_science)">decomposition</a>),
+							find the order in them (<a
+								href="https://en.wikipedia.org/wiki/Pattern_recognition_(psychology)">pattern
+								recognition</a>), make solutions using a series of steps (<a
+								href="https://en.wikipedia.org/wiki/Algorithm">algorithms</a>) and realise that you
+							might be able to use that solution in lots of areas (<a
+								href="https://en.wikipedia.org/wiki/Generalization">generalisation</a>).</li>
+						<li>Most of all, to <b>teach</b> you to be <b>autodidacts</b>, and, as previously mentioned, to
+							blow your mind <b>at least</b> once per lecture.</li>
+						<li>First task: <b>what</b> is an <b>autodidact</b>? </li>
+					</ul>
+				</section>
+				<section>
+					<h3>2. Counting in decimal, unary and binary.</h3>
+					<ul>
+						<li>Counting is using groups of symbols to represent quantities or amounts.</li>
+						<li>Let's count to 100 in <a href="https://en.wikipedia.org/wiki/Decimal">Decimal</a>. When do
+							we need a extra digits?</li>
+						<li>Let's count to 10 in <a href="https://en.wikipedia.org/wiki/Unary_numeral_system">Unary</a>.
+						</li>
+						<li>Let's count to 20 in <a href="https://en.wikipedia.org/wiki/Binary_number">Binary</a>. When
+							do we need an extra digit?</li>
+						<li>What's the biggest number you can count to on your fingers? On your fingers and toes?</li>
+					</ul>
+				</section>
+				<section>
+					<h3>3. Memory in computers, storing numbers and words.</h3>
+					<ul>
+						<li>Computers use binary to represent everything in <a
+								href="https://en.wikipedia.org/wiki/Computer_memory">memory</a>.</li>
+						<li>A bit is a Binary digIT.</li>
+						<li>A byte is eight bits. (BEight).</li>
+						<li>A kilobyte is 1,024 (2^10) bytes, <a
+								href="https://en.wikipedia.org/wiki/Kilobyte">mostly</a>.</li>
+						<li>A megabyte is 1,048,576 (2^20) bytes, <a
+								href="https://en.wikipedia.org/wiki/Megabyte">mostly</a>.</li>
+					</ul>
+				</section>
+				<section>
+					<h3>3. Memory in computers, storing numbers and words (continued).</h3>
+					<ul>
+						<li>One megabyte is approximately one minute of 128 kbit/s MP3 compressed music.</li>
+						<li>One megabyte is six seconds of uncompressed CD audio.</li>
+						<li>One megabyte is a typical English book volume in plain text format (500 pages × 2000
+							characters per page).</li>
+						<li>The human genome consists of DNA representing 800 MB of data. The parts that differentiate
+							one person from another can be compressed to 4 MB!</li>
+					</ul>
+				</section>
+				<section>
+					<h3>3. Memory in computers, storing numbers and words (continued).</h3>
+					<ul>
+						<li>There are different ways of storing numbers and words in computers, as whole these values
+							are known as <a href="https://en.wikipedia.org/wiki/Data_type">Data types</a>.</li>
+						<li>Whole numbers or Integers are stored as <a
+								href="https://en.wikipedia.org/wiki/Integer_%28computer_science%29">ints</a>. E.g. 0, 5,
+							-567.</li>
+						<li>Numbers which are in between whole numbers are stored as <a
+								href="https://en.wikipedia.org/wiki/Floating-point_arithmetic">Floating Points or
+								floats</a>. E.g. 3.142 or -5.66343.</li>
+						<li>As these numbers are stored in certain amounts of memory, if they get too big (or negative,
+							or precise) the computer can run out of memory to store them, or overflow. This is bad. See
+							the <a href="https://en.wikipedia.org/wiki/Year_2000_problem">Y2K bug</a>.</li>
+					</ul>
+				</section>
+				<section>
+					<h3>3. Memory in computers, storing numbers and words (continued).</h3>
+					<ul>
+						<li>You can also store individual characters of the alphabet as <a
+								href="https://en.wikipedia.org/wiki/Character_(computing)">chars</a>.</li>
+						<li>However, there are different encodings of characters - <a
+								href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> and <a
+								href="https://en.wikipedia.org/wiki/Unicode">Unicode</a> for example - which allow
+							different character sets to be displayed.</li>
+						<li>You can store words (multiple characters) in strings - which are actually just lists of
+							chars.</li>
+						<li>Another name for lists are <a
+								href="https://en.wikipedia.org/wiki/Associative_array">arrays</a>.</li>
+						<li>Strings are one <a href="https://en.wikipedia.org/wiki/Dimension">dimensional</a> arrays.
+							We'll be discussing two dimensional arrays next time.</li>
+						<li>Data can be stored as fixed values (<a
+								href="https://en.wikipedia.org/wiki/Constant_(computer_programming)">constants</a>) or
+							values that can change (<a
+								href="https://en.wikipedia.org/wiki/Variable_%28computer_science%29">variables</a>).
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h3>4. How big things are.</h3>
+					<ul>
+						<li>Thanks to <a href="https://www.edge.org/response-detail/10298">Terrence J. Sejnowski and his
+								article on Edge.org</a> for the following examples.</li>
+						<li>How many seconds are there in a lifetime? 10^9 seconds.</li>
+						<li><q>A second is an arbitrary time unit, but one that is based on our experience. Our visual
+								system is bombarded by snapshots at a rate of around 3 per second caused by rapid eye
+								movements called saccades. Athletes often win or lose a race by a fraction of a second.
+								If you earned a dollar for every second in your life you would be a billionaire.
+								However, a second can feel like a minute in front of an audience and a quiet weekend can
+								disappear in a flash. As a child, a summer seemed to last forever, but as an adult,
+								summer is over almost before it begins. William James speculated that subjective time
+								was measured in novel experiences, which become rarer as you get older. Perhaps life is
+								lived on a logarithmic time scale, compressed toward the end.</q></li>
+					</ul>
+				</section>
+				<section>
+					<h3>4. How big things are (continued).</h3>
+					<ul>
+						<li>What is the GDP of the world? $10^14.</li>
+						<li><q>A billion dollars was once worth a lot, but there is now a long list of
+								multibillionaires. The US government recently stimulated the world economy by loaning
+								several trillion dollars to banks. It is difficult to grasp how much a trillion dollars
+								($10^12) represents, but several clever videos on YouTube (key words: trillion dollars)
+								illustrate this with physical comparisons (a giant pile of $100 bills) and what you can
+								buy with it (10 years of US response to 9/11). When you start thinking about the world
+								economy, the trillions of dollars add up. A trillion here, a trillion there, pretty soon
+								your talking about real money. But so far there aren't any trillionaires.</q></li>
+					</ul>
+				</section>
+				<section>
+					<h3>4. How big things are (continued).</h3>
+					<ul>
+						<li>How many synapses are there in the brain? 10^15.</li>
+						<li><q>Two neurons can communicate with each other at a synapse, which is the computational unit
+								in the brain. The typical cortical synapse is less than a micron in diameter (10^-6
+								metres), near the resolution limit of the light microscope. If the economy of the world
+								is a stretch for us to contemplate, thinking about all the synapses in your head is mind
+								boggling. If I had a dollar for every synapse in your brain I could support the current
+								economy of the world for 10 years. Cortical neurons on average fire once a second, which
+								implies a bandwidth of around 10^15 bits per second, greater than the total bandwidth of
+								the internet backbone.</q></li>
+					</ul>
+				</section>
+				<section>
+					<h3>4. How big things are (continued).</h3>
+					<ul>
+						<li>How many seconds will the sun shine? 10^17 seconds</li>
+						<li><q>Our sun has shined for billions of years and will continue to shine for billions more.
+								The universe seems to be standing still during our lifetime, but on longer time scales
+								the universe is filled with events of enormous violence. The spatial scales are also
+								immense. Our space-time trajectory is a very tiny part of the universe, but we can at
+								least attach powers of 10 to it and put it into perspective.</q></li>
+					</ul>
+				</section>
+				<section>
+					<h3>4. How big things are (continued).</h3>
+					<ul>
+						<li>Artwork: Powers of Ten by the Eames Office<br><iframe width="560" height="315"
+								src="https://www.youtube-nocookie.com/embed/0fKBhvDjuy0?rel=0&amp;showinfo=0"
+								frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+					</ul>
+				</section>
+				<section>
+					<h3>5. Bonus: Really really really big numbers</h3>
+					<ul>
+						<li>For more information, see <a
+								href="https://waitbutwhy.com/2014/11/1000000-grahams-number.html">this article on the
+								fantastic Wait But Why</a>.<br><iframe width="560" height="315"
+								src="https://www.youtube-nocookie.com/embed/GuigptwlVHo?rel=0&amp;controls=0"
+								frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Thanks!</h2>
+					<ul>
+						<li>More about me: <a href="https://twitter.com/joelgethinlewis">@joelgethinlewis</a></li>
+						<li>Get in contact via: <a href="https://www.joelgethinlewis.com/">www.joelgethinlewis.com</a>
+						</li>
+						<li>Website:<br><a
+								href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/">https://jgl.github.io/CCIDiploma-AutumnWinter2019</a>
+						</li>
+						<li>Today's slides:<br><a
+								href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture1.html">https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture1.html</a>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				// Push each slide change to the browser history
+				history: true,
+				// Display a presentation progress bar
+				progress: true,
+				// Display the page number of the current slide
+				slideNumber: 'c/t',
+
+				dependencies: [{
+						src: 'plugin/markdown/marked.js'
+					},
+					{
+						src: 'plugin/markdown/markdown.js'
+					},
+					{
+						src: 'plugin/notes/notes.js',
+						async: true
+					},
+					{
+						src: 'plugin/highlight/highlight.js',
+						async: true,
+						callback: function () {
+							hljs.initHighlightingOnLoad();
+						}
+					}
+				]
+			});
+		</script>
+	</body>
+
+</html>
