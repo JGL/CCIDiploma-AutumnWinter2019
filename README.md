@@ -1,6 +1,8 @@
 # Diploma in Creative Computing at the Creative Coding Institute, Camberwell, University of the Arts, London
 Lecture slides, wiki, notes and examples from units 1 and 3 of the Creative Coding Institute's Diploma in Creative Computing.
 
+Just adding this text
+
 ## Info
 
 - Lecturer: [Joel Gethin Lewis](https://joelgethinlewis.com/),
