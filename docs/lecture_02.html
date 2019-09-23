@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Creative Computing - Autumn Winter 2019: Week 1: Lecture 2: Remembering</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/whiteJGL.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>Creative Computing</h2>
+				<p>Joel Gethin Lewis</p>
+				<p>Week 1: Lecture 2: Remembering</p>
+			</section>
+			<section>
+				<h3>What I'm going to talk about now:</h3>
+				<ol start=0>
+					<li>Group meditation.</li>
+					<li>Questions.</li>
+					<li>Overview of current Creative Coding frameworks.</li>
+					<li>Introduction to JavaScript.</li>
+					<li>Processing, p5.js, ml5.js, pts.js.</li>
+					<li>p5.js web editor, Glitch.com, Visual Studio Code.</li>
+					<li>Daniel Shifmann, The Nature of Code, The Coding Train, Rune Madsen, Programming Design Systems,
+						Gene Kogan, Machine Learning for Artists.
+					</li>
+					<li>openFrameworks, the oFBook.</li>
+					<li>zzz.dog, three.js, Mr Doob and A-Frame and AR.</li>
+					<li>Unreal engine, Blender and Rubber Duck Debugging.</li>
+					<li>Data Types: primitive, composite and abstract.</li>
+					<li>Homework Assignment.</li>
+					<li>Feedback.</li>
+				</ol>
+			</section>
+			<section>Are you recording Joel?</section>
+			<section>
+				<h3>0. Group Meditation</h3>
+				<ol>
+					<li><a href="http://www.galactanet.com/oneoff/theegg_mod.html ">The Egg.</a></li>
+					<li>All in a circle. Comfortable positions. Eyes closed. Breathing through the belly.</a></li>
+					<li>Trigger warning - this meditation is about what might happen when you die. If you want to sit
+						this out for any reason, I'll give a shout on the Slack when we are done. Each to their own!
+					</li>
+				</ol>
+			</section>
+			<section>
+				<h3>1. Questions?</h3>
+				<ul>
+					<li>All questions allowed!</li>
+					<li>5 minutes alone on post it notes, then double group size every 2 minutes until it's the whole
+						group.</li>
+					<li>This idea came from <a href="http://thesystemis.com/">Zach Lieberman</a>. He does this exercise
+						at the start of every session of <a href="https://sfpc.io/">School of Poetic Computation in New
+							York</a>.</li>
+				</ul />
+			</section>
+			<section>
+				<h3>2. Overview of current Creative Coding frameworks.</h3>
+				<ul>
+					<li><img src="img/JimCampbellFormula_for_computer_art.gif"></li>
+					<li><a href="https://www.jimcampbell.tv/portfolio/miscellaneous_references/">Jim Campbell's</a>
+						formula for
+						Computer Art (2001) via <a href="http://www.flong.com/texts/essays/essay_generatorx/">Golan
+							Levin</a>.</li>
+					<li>Creative Coding frameworks make machines that make machines like this.</li>
+				</ul />
+			</section>
+			<section>
+				<h3>2. Overview of current Creative Coding frameworks (continued).</h3>
+				<ul>
+					<li>Different freedoms: <a href="https://en.wikipedia.org/wiki/Open-source_model">Open Source</a>
+						vs. <a href="https://en.wikipedia.org/wiki/Closed_source">Closed Source</a>. Is this Political?
+					</li>
+					<li>Different interaction methods: Text based vs. Graphical User Interface vs. Node based vs. Live
+						coding vs. ? Is this a matter of style?</li>
+					<li>Different deployment platforms: desktop vs. web/cloud vs. smartphone vs. new hardware vs. paper
+						vs. TV vs. games vs. drone vs. ? What does this mean?</li>
+					<li>Different costs? What other ethical concerns? Questions?</li>
+				</ul />
+			</section>
+			<section>
+				<h3>2. Overview of current Creative Coding frameworks (continued).</h3>
+				<ul>
+					<li>Different freedoms: <a href="https://unity.com/">Unity</a> vs. <a
+							href="https://www.unrealengine.com/en-US/">Unreal Engine</a> vs. <a
+							href="https://openframeworks.cc/">openFrameworks</a>
+						vs. <a href="https://developer.apple.com/swift/">Swift</a> vs.
+						<a href="https://developer.android.com/kotlin">Kotlin</a> vs. ?
+					</li>
+					<li>Different interaction methods: <a href="https://p5js.org/">
+							p5.js</a> vs. <a href="https://www.disguise.one/en/">Disguise</a> vs. <a
+							href="https://vvvv.org/">VVVV or
+							4V</a>> vs. <a href="https://github.com/ojack/hydra">Hydra</a> <a
+							href="https://cdm.link/2019/02/hydra-olivia-jack/">(more here!)</a>vs. <a
+							href="https://twinery.org/">Twine</a> vs. ?
+					</li>
+					<li>Different deployment platforms: <a href="https://www.libcinder.org/gallery">Cinder</a> vs. <a
+							href="https://threejs.org/">three.js</a> vs. <a href="https://www.pixijs.com/">Pixi.js</a>
+						vs. <a href="https://love2d.org/">LÖVE</a>
+						vs. <a href="https://www.cardsagainsthumanity.com/">Cards Against Humanity</a>
+						vs. <a href="https://www.bbc.co.uk/programmes/p07bvx36">The Wall</a> vs. <a
+							href="https://www.epicgames.com/fortnite/en-US/battle-pass/season-x">Fortnite (made in
+							Unreal Engine)</a> vs. <a href="https://thedroneracingleague.com/">Drone Racing League</a>
+						vs. ?</li>
+					<li>Different number of developers, different cost of developers, different styles of developers,
+						different age of platform, different sustainability of platform, different payment platforms...
+					</li>
+					<li>Questions?</li>
+				</ul />
+			</section>
+			<section>
+				<h3>3. Introduction to JavaScript.</h3>
+				<ul>
+					<li><a
+							href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools#The_JavaScript_console">It's
+							in your browser, right now!</a></li>
+					<li><a href="https://en.wikipedia.org/wiki/JavaScript#Beginnings_at_Netscape">It was orginally
+							developed in 1995, in 10
+							days, by one person!</a></li>
+					<li>It works pretty much everywhere.</li>
+					<li>It has hilarious bugs and oddities or used to.</li>
+					<li>It's not really anything to do with Java, which is another separate programming language.</li>
+					<li>It's massively popular, and getting bigger, faster.</li>
+				</ul />
+			</section>
+			<section>
+				<h3>4. Processing, p5.js, ml5.js, pts.js.</h3>
+				<ul>
+					<li><a href="https://processingfoundation.org/">Processing</a>.</li>
+					<li><a href="https://p5js.org/">p5.js</a> by <a href="http://www.lauren-mccarthy.com/">Lauren
+							McCarthy</a> and
+						others.</li>
+					<li><a href="https://ml5js.org/">ml5.js</a> by staff and students of <a
+							href="http://tisch.nyu.edu/itp">NYU
+							ITP</a>.</li>
+					<li><a href="http://ptsjs.org/">pts.js</a> by <a href="http://williamngan.com/">William Ngan</a> and
+						others.
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h3>5. p5.js web editor, Glitch.com, Visual Studio Code.</h3>
+				<ul>
+					<li><a href="https://editor.p5js.org/">p5.js web editor.</a>.</li>
+					<li><a href="https://www.glitch.com/">Glitch</a>.</li>
+				</ul />
+			</section>
+			<section>
+				<h3>6. Daniel Shiffman, The Nature of Code, The Coding Train, Rune Madsen, Programming Design Systems,
+					Gene Kogan,
+					Machine Learning for Artists.</h3>
+				<ul>
+					<li><a href="https://shiffman.net/">Daniel Shiffman</a>.</li>
+					<li><a href="https://natureofcode.com/">The Nature of Code</a>.</li>
+					<li><a href="https://www.youtube.com/thecodingtrain/">The Coding Train</a>.</li>
+					<li><a href="https://twitter.com/runemadsen">Rune Madsen</a>.</li>
+					<li><a href="https://programmingdesignsystems.com/">Programming Design Systems</a>.</li>
+					<li><a href="https://ml4a.github.io/">Machine Learning 4 Artists (ml4a)</a> by <a
+							href="http://genekogan.com/">Gene
+							Kogan</a>.</li>
+
+				</ul />
+			</section>
+			<section>
+				<h3>7. openFrameworks, the oFBook.</h3>
+				<ul>
+					<li><a href="https://openframeworks.cc/">openFrameworks</a>.</li>
+					<li><a href="http://zach.li/">Zach Lieberman</a>.</li>
+					<li><a href="http://www.theowatson.com/">Theo Watson</a>.</li>
+					<li><a href="http://arturocastro.net/">Arturo Castro</a>.</li>
+					<li>Great book on learning openFrameworks (and
+						other things): <a href="https://openframeworks.cc/ofBook/chapters/foreword.html"></a>the
+						oFBook</a> .</li>
+				</ul />
+			</section>
+			<section>
+				<h3>8. zzz.dog, three.js, Mr Doob and A-Frame and AR.</h3>
+				<ul>
+					<li><a href="https://zzz.dog/">zzz.dog - "Round, flat, designer-friendly
+							pseudo-3D engine for canvas & SVG"</a>.</li>
+					<li><a href="https://threejs.org/">three.js - "Javascript 3D engine"</a>.</li>
+					<li><a href="https://twitter.com/mrdoob">Mr Doob - creator of three.js</a>.</li>
+					<li><a href="https://aframe.io/">A-Frame</a> - "A web framework for building virtual reality
+						experiences ".</li>
+					<li><a href="https://blog.mozvr.com/experimenting-with-computer-vision-in-webxr/">WebXR</a>.</li>
+					<li><a href="https://itp-xstory.github.io/p5js-shaders/#/">p5.js shader course</a>.</li>
+				</ul />
+			</section>
+			<section>
+				<h3>9. Unreal Engine, Blender and Rubber Duck Debugging.</h3>
+				<ul>
+					<li><a href="https://www.unrealengine.com/en-US/">Unreal Engine</a> is interesting - currently in
+						use by Nintendo to make Zelda Breath of the Wild. If it's good enough for them, it's good enough
+						for me. Anyone used it? I want to next term.</li>
+					<li><a href="https://www.blender.org/">Blender</a> is an interesting platform - combining 3d
+						modelling, rendering,
+						animation tools, editing and a real time game engine. Has anyone else tried it? I want to next
+						term.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">Rubber Duck Debugging</a> is a
+						useful tool. Try
+						it. Would you find one useful?</li>
+				</ul />
+			</section>
+			<section>
+				<h3>10. Data Types: primitive, composite and abstract.</h3>
+				<ul>
+					<li>What is a <a href="https://en.wikipedia.org/wiki/Data_type">Data type</a>?</li>
+					<li>What kind is an int?</li>
+					<li>What kind is a string?</li>
+					<li>What kind is a float?</li>
+					<li>What kind is an array?</li>
+					<li>What kind is a vector?</li>
+					<li>What kind is a bool?</li>
+					<li>What kind is a queue?</li>
+					<li>What kind is a char?</li>
+				</ul>
+			</section>
+			<section>
+				<h3>11. Homework assignment!</h3>
+				<ul>
+					<li>
+						<a href="https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-1-Homework">To do today
+							and tomorrow afternoons.</a></li>
+				</ul>
+			</section>
+			<section>
+				<h3>12. Feedback</h3>
+				<ul>
+					<li>What's working?</li>
+					<li>What's not working?</li>
+					<li>What am I missing?</li>
+					<li>Lets talk now or you can Slack me in private.</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Thanks!</h2>
+				<ul>
+					<li>More about me: <a href="https://twitter.com/joelgethinlewis">@joelgethinlewis</a></li>
+					<li>Get in contact via the CCI Slack!</a>
+					</li>
+					<li>Website:<br><a
+							href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/">https://jgl.github.io/CCIDiploma-AutumnWinter2019</a>
+					</li>
+					<li>Today's slides:<br><a
+							href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_01.html">https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_02.html</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			// Push each slide change to the browser history
+			history: true,
+			// Display a presentation progress bar
+			progress: true,
+			// Display the page number of the current slide
+			slideNumber: 'c/t',
+
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
