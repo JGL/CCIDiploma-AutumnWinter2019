@@ -81,21 +81,17 @@ During the second half of the term, Unit 1 will be taught on Monday mornings, wi
 
 ## Weekly Structure (first half of term)
 
-Monday morning: lectures and discussions
-Monday afternoon: homework
-Tuesday morning: lectures and discussions
-Tuesday afternoon: homework, my office hours
+Monday morning: lectures and discussions Monday afternoon: homework Tuesday morning: lectures and discussions Tuesday afternoon: homework, my office hours
 
 ## Weekly Structure (second half of term, week 7 onwards inclusive)
 
-Monday morning: lectures and discussions
-Monday afternoon: visits, talks and seminars
-Tuesday morning: lectures and discussions
-Tuesday afternoon: workshops, homework and project work, my office hours
+Monday morning: lectures and discussions Monday afternoon: visits, talks and seminars Tuesday morning: lectures and discussions Tuesday afternoon: workshops, homework and project work, my office hours
 
 ## Assessment
 
-Throughout the term, you will be working in pairs. This is a technique known as [Pair Programming](https://en.wikipedia.org/wiki/Pair_programming). You may change pair partner as often or sparingly as you like.
+~~Throughout the term, you will be working in pairs. This is a technique known as [Pair Programming](https://en.wikipedia.org/wiki/Pair_programming). You may change pair partner as often or sparingly as you like.~~
+
+Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104?s=11">latest research</a>, I've decided to shift us from pairs to threes. After all, <a href="https://www.youtube.com/watch?v=np0YIaHv6LQ">three is a magic number</a>.
 
 However, at the end of term, you will be assessed individually. Unit 1 and Unit 3 are assessed in different ways:
 
@@ -142,47 +138,45 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - zzz.dog, three.js, Mr Doob and A-Frame and AR.
 - Unreal Engine, Blender and Rubber Duck Debugging.
 - Data Types: primitive, composite and abstract.
-- Homework Assignment.
-- Feedback.
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-1-Homework)
 - Feedback, how was this week? What worked? What didn't?
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-1-Homework)
 
 ## Week 2 (week 40 of 52, commencing Monday 30th September 2019) - Drawing and Deciding
 
 ### Monday - Drawing
 
-- Group meditation
+- Group meditation.
 - Questions?
-- Drawing - how to draw on a piece of paper, how to draw on a screen, moving from one dimension to two
-- Art from rules
-- Colour and colour on computers
-- Afternoon - exercises from Code as Creative Medium - Arrays and Colour
+- Git and GitHub.
+- Drawing - how to draw on a piece of paper, how to draw on a screen, moving from one dimension to two.
+- Art from rules.
+- Colour and colour on computers.
+- Afternoon - exercises from Code as Creative Medium - Arrays and Colour.
 
 ### Tuesday - Deciding
 
-- Group meditation
+- Group meditation.
 - Questions?
-- Deciding - logic in humans and computers
-- Looping - doing things many times, but using logic to stop
-- Moving from two dimensions to three, Artists working in three dimensions
-- Afternoon - exercises from Code as Creative Medium - Conditional Testing and Iteration
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-2-Homework)
+- Deciding - logic in humans and computers.
+- Looping - doing things many times, but using logic to stop.
+- Moving from two dimensions to three, Artists working in three dimensions.
+- Afternoon - exercises from Code as Creative Medium - Conditional Testing and Iteration.
 - Feedback, how was this week? What worked? What didn't?
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-2-Homework)
 
 ## Week 3 (week 41 of 52, commencing Monday 7th October 2019) - Functions and Objects
 
-- Group meditation
+- Group meditation.
 - Questions?
-- The Jacquard Loom, Charles Babbage and Ada Lovelace.
-  Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking.
+- The Jacquard Loom, Charles Babbage and Ada Lovelace. Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking.
 - Anni Albers, Agnes Martin.
-- Afternoons - exerises from Code as Creative Medium - Curves, Graphic Elements
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-3-Homework)
+- Afternoons - exerises from Code as Creative Medium - Curves, Graphic Elements.
 - Feedback, how was this week? What worked? What didn't?
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-3-Homework)
 
 ## Week 4 (week 42 of 52, commencing Monday 14th October 2019) - Compressing and Linking
 
-- Group meditation
+- Group meditation.
 - Questions?
 - Moving to four dimensions.
 - Artists working with the space and time.
@@ -192,13 +186,13 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - Encryption.
 - Trees and Graphs.
 - Mark Lombardi, Listening Post and Celestial Mechanics
-- Afternoons - Monday afternoon trip with BSc group and Dr Charlotte Webb to Modernism V&A trip then Tuesday exercises from Code as Creative Medium - Images and / Time and Interactivity
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-4-Homework)
+- Afternoons - Monday afternoon trip with BSc group and Dr Charlotte Webb to Modernism V&A trip then Tuesday exercises from Code as Creative Medium - Images and / Time and Interactivity.
 - Feedback, how was this week? What worked? What didn't?
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-4-Homework)
 
 ## Week 5 (week 43 of 52, commencing Monday 21st October 2019) - Consuming and Thinking
 
-- Group meditation
+- Group meditation.
 - Questions?
 - Ant Farm, A Hole in Space and The secret war between uploading and downloading.
 - Genes and Memes and the Alt Right.
@@ -212,57 +206,57 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - Joscha Bach and a Computational Universe.
 - Pace layering, Pattern Language and the purpose of Art.
 - Afternoons - exercises from Code as Creative Medium - Simulation and Text and Language with [rita.js](https://rednoise.org/rita/).
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-5-Homework)
 - Feedback, how was this week? What worked? What didn't?
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-5-Homework)
 
 ## Week 6 (week 44 of 52, commencing Monday 28th October 2019) - Doing
 
-- Group meditation
+- Group meditation.
 - Questions?
 - Memo Atken, Mario Klingemann, Golan Levin, Art+Com, Daito Manabe.
 - Win without Pitching, You're my favourite client, Hell Yeah, Austin Kleon, Tim Pychyl, Ira Glass, Virgil Abloh and Bret Victor.
-- Paper prototyping afternoon
+- Paper prototyping afternoon.
 - <https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-eights> - crazy eights to start?
 - Feedback, how was this week? What worked? What didn't?
-- Afternoons - exerises from Code as Creative Medium - Sound and Visualisation
+- Afternoons - exercises from Code as Creative Medium - Sound and Visualisation.
 - [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-6-Homework)
 
 ## Week 7 (week 45 of 52, commencing Monday 4th November 2019) - Split point - moving to Mondays for Unit 1, Tuesdays for Unit 3
 
-- Group meditation
+- Group meditation.
 - Questions?
 - Introduction to [C++](https://en.m.wikipedia.org/wiki/C++), via [openFrameworks](https://openframeworks.cc/), show red c++ book, show oF book, might be a bit out of date, but we are going to update it for the community
 - We could build a network of [environmental sensors](https://shop.pimoroni.com/products/enviro-plus)
-- <https://twitter.com/RebeccaFiebrink/status/1159424339063791618> - project speed dating, match everyone up with someone else, ready for mock presentation on week 9
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-7-Homework)
+- <https://twitter.com/RebeccaFiebrink/status/1159424339063791618> - project speed dating, match everyone up with someone else, ready for mock presentation on week 9.
 - Feedback, how was this week? What worked? What didn't?
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-7-Homework)
 
 ## Week 8 (week 46 of 52, commencing Monday 11th November 2019) - TBC
 
-- Group meditation
-- Emotion/Creative Computing practice with Dr Charlotte Webb and BSc students
+- Group meditation.
+- Emotion/Creative Computing practice with Dr Charlotte Webb and BSc students.
 - Questions?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-8-Homework)
 - Feedback, how was this week? What worked? What didn't?
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-8-Homework)
 
 ## Week 9 (week 47 of 52, commencing Monday 18th November 2019) - TBC
 
-- Group meditation
+- Group meditation.
 - Questions?
-- Mock final presentation
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-9-Homework)
+- Mock final presentation.
 - Feedback, how was this week? What worked? What didn't?
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-9-Homework)
 
 ## Week 10 (week 48 of 52, commencing Monday 25th November 2019) - TBC
 
-- Group meditation
+- Group meditation.
 - Questions?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-10-Homework)
 - Feedback, how was this week? What worked? What didn't?
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-10-Homework)
 
 ## Week 11 (week 49 of 52, commencing Monday 2nd December 2019) - TBC
 
-- Group meditation
+- Group meditation.
 - Questions?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-11-Homework)
 - Feedback, how was this week? What worked? What didn't?
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-11-Homework)
