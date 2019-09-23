@@ -10,7 +10,7 @@ Lecture slides, wiki, notes and examples from units 1 and 3 of the Creative Codi
 - [All term dates](https://www.arts.ac.uk/students/term-dates)
 - [Office Hours](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Office-Hours)
 - Contact me via the [UAL Creative Computing Institute Slack](https://ual-cci.slack.com)
-- [Lecture Slides](https://jgl.github.io/CCIDiploma-AutumnWinter2019/).
+- [Lecture Slides](https://jgl.github.io/CCIDiploma-AutumnWinter2019/)
 - [Wiki for all homework, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki)
 - You are expected to undertake independent study of about 25 hours per week
 
