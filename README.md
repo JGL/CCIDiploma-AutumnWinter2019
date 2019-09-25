@@ -16,7 +16,7 @@ Lecture slides, wiki, notes and examples from units 1 and 3 of the Creative Codi
 
 ## Code of Conduct / Community Statement is cloned from p5.js
 
-<https://p5js.org/community/>
+You can find our code of conduct here: [code_of_conduct.md](CODE_OF_CONDUCT.md).
 
 Golan Levin also offers a useful thought from his children's school:
 
@@ -148,10 +148,12 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - Group meditation.
 - Questions?
 - Git and GitHub.
-- Drawing - how to draw on a piece of paper, how to draw on a screen, moving from one dimension to two.
+- Drawing on paper.
+- Moving from zero spatial dimensions to one and on to two.
 - Art from rules.
 - Colour and colour on computers.
-- Afternoon - exercises from Code as Creative Medium - Arrays and Colour.
+- Feedback.
+- Afternoon - [homework exercises](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-2-Homework) from Code as Creative Medium - Arrays and Colour as well as introduction to p5.js.
 
 ### Tuesday - Deciding
 
@@ -159,10 +161,10 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - Questions?
 - Deciding - logic in humans and computers.
 - Looping - doing things many times, but using logic to stop.
-- Moving from two dimensions to three, Artists working in three dimensions.
-- Afternoon - exercises from Code as Creative Medium - Conditional Testing and Iteration.
+- Moving from two spatial dimensions to three.
+- Some artists working in three dimensions.
+- Afternoon - [homework exercises](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-2-Homework) from Code as Creative Medium - Conditional Testing and Iteration as well as continuing introduction to p5.js.
 - Feedback, how was this week? What worked? What didn't?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-2-Homework)
 
 ## Week 3 (week 41 of 52, commencing Monday 7th October 2019) - Functions and Objects
 
