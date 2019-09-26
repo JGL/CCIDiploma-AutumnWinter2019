@@ -1,4 +1,4 @@
-# Contributor Covenant Code of Conduct
+# Creative Computing Institute Diploma Code of Conduct
 
 Adapted from: <https://github.com/processing/p5.js/blob/master/CODE_OF_CONDUCT.md>
 

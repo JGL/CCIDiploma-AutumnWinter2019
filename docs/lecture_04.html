@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Creative Computing - Autumn Winter 2019: Week 2: Lecture 4: Deciding</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/whiteJGL.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>Creative Computing</h2>
+				<p>Joel Gethin Lewis</p>
+				<p>Week 2: Lecture 4: Deciding</p>
+			</section>
+			<section>
+				<h3>What I'm going to talk about now:</h3>
+				<ol start=0>
+					<li>Group meditation.</li>
+					<li>Questions?</li>
+					<li>Deciding - logic in humans and computers.</li>
+					<li>Looping - doing things many times, but using logic to stop.</li>
+					<li>Moving from two spatial dimensions to three.</li>
+					<li>Some artists working in three dimensions.</li>
+					<li>Feedback.</li>
+					<li>Homework Assignment - exercises from Code as Creative Medium - Conditional Testing and Iteration as well as introduction to p5.js</li>
+				</ol>
+			</section>
+			<section>Are you recording Joel?</section>
+			<section>
+				<h3>0. Group Meditation</h3>
+				<ol>
+					<li>TBC.</li>
+				</ol>
+			</section>
+			<section>
+				<h3>1. Questions?</h3>
+				<ul>
+					<li>All questions allowed!</li>
+					<li>2 minutes alone on post it notes, then double group size every 1 minutes until it's the whole
+						group.</li>
+					<li>This idea came from <a href="http://thesystemis.com/">Zach Lieberman</a>. He does this exercise
+						at the start of every session of <a href="https://sfpc.io/">School of Poetic Computation in New
+							York</a>.</li>
+				</ul />
+			</section>
+			<section>
+				<h3>2. Deciding - logic in humans and computers</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean algebra</a>, named after <a href="https://en.wikipedia.org/wiki/George_Boole">George Boole</a>. The <a href="https://en.wikipedia.org/wiki/Boolean_data_type">Boolean data type</a> is a common to most programming languages - only two values - True (1) or False (0). One is true, nothing is false.</li>
+					<li>Boolean operators allow you to combine or invert boolean data types - the three basic ones are AND, OR and NOT.</li>
+					<li>Control flow in programming is how you control the flow of which part of the program is executed next.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Conditional_(computer_programming)">Conditional statements</a>, such as if statements are very common.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>3. Deciding - doing things many times, but using logic to stop</h3>
+				<ul>
+					<li>Loops such as <a href="https://en.wikipedia.org/wiki/While_loop">while loops</a> and <a href="https://en.wikipedia.org/wiki/For_loop">for loops</a> are also very common.</li>
+					<li>Let's try writing some loops in p5.js on the editor to print things out.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>4. Moving from two spatial dimensions to three</h3>
+				<ul>
+					<li>Going from a <a href="https://en.wikipedia.org/wiki/Square">square</a> to a <a href="https://en.wikipedia.org/wiki/Cube">cube</a>.</li>
+					<li>The third dimension is usually described in terms of a new letter: z.</li>
+					<li>The direction and orientation of the three dimensions varies in a similar way to the way the direction of y varies in two dimensions between high school graphs and digital screen co-ordinates, so always check which way is what.</li>
+					<li>See how <a href="https://betterexplained.com/articles/measure-any-distance-with-the-pythagorean-theorem/">Pythagoras works in three dimensions in this Better Explained article</a>.</li>
+					<li>Also see this <a href="http://immersivemath.com/ila/index.html">Immersive linear algebra course</a> - what is <a href="https://en.wikipedia.org/wiki/Linear_algebra">Linear Algebra?</a>.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>4. Moving from two spatial dimensions to three (continued)</h3>
+				<ul>
+					<li>One way of storing three dimensional information is using <a href="https://en.wikipedia.org/wiki/Point_cloud">point clouds</a>.</li>
+					<li>The output of three dimensional scanners is often in point clouds - a grid of positions, each with a depth value - think of <a href="https://en.wikipedia.org/wiki/Pin_Art">Pin Art</a> toys from the 1980's.</li>
+					<li>Another way of storing three dimensional data is to use <a href="https://en.wikipedia.org/wiki/Voxel">Voxels</a> (from the initial letters of volume and element, with the insertion of -x- for ease of pronunciation).</li>
+					<li>Voxels can be a super efficient way of storing three dimension information - used for everything from MRI scanners to Minecraft.</li>
+					<li>Creative uses of points in space: <a href="https://universaleverything.com/projects/motorstudio-design-room">Motorstudio Design Room </a> / <a href="https://www.youtube.com/watch?v=gyNHJQzn3pw">Hermès × Tokujin Yoshioka</a> / <a href="https://www.clairesophie.com/shining360excerpt">Shining360 by Claire Hentschker</a>.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>4. Moving from two spatial dimensions to three (continued)</h3>
+				<ul>
+					<li>Another way of storing three dimensional information is using a series of <a href="https://en.wikipedia.org/wiki/Polygon">polygons</a>.</li>
+					<li>Polygons are geometric objects with at least three straight lines and angles.</li>
+					<li>Polygons are plane figures - i.e. they are flat.</li>
+					<li>Some examples: <a href="https://en.wikipedia.org/wiki/Square">squares</a>, <a href="https://en.wikipedia.org/wiki/Triangle">triangles</a> and <a href="https://en.wikipedia.org/wiki/Pentagon">pentagons</a>.</li>
+					<li>Triangles are often used in three dimensional software and games - for more information about why this is so see this <a href="https://www.youtube.com/watch?v=KdyvizaygyY">Computerphile video about A Universe of Triangles</a>.</li>
+					<li>A <a href="https://en.wikipedia.org/wiki/Polyhedron">Polyhedron</a> is a three dimensional shape made of multiple polygons.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Platonic_solid">The Platonic Solids</a> are a set of three dimensional shapes that have been known about since <a href="https://en.wikipedia.org/wiki/Ancient_Greece">Ancient Greece</a> and possibly back to <a href="https://en.wikipedia.org/wiki/Neolithic">Neolithic</a> times.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>5. Artists working in three dimensions.</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Michael_Heizer">Michael Heizer</a>, <a href="https://en.wikipedia.org/wiki/City_(artwork)">City</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Walter_De_Maria">Walter De Maria</a>, <a href="https://en.wikipedia.org/wiki/The_Lightning_Field">Lightning Field</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Donald_Judd">Donald Judd</a>, <a href="https://en.wikipedia.org/wiki/Marfa,_Texas">Marfa, Texas</a>. "methods should not matter as long as the results create art".</li>
+					<li><a href="https://en.wikipedia.org/wiki/Nancy_Holt">Nancy Holt</a>, <a href="https://utah.com/wendover/sun-tunnels">Sun Tunnels</a>.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>6. Feedback</h3>
+				<ul>
+					<li>What's working?</li>
+					<li>What's not working?</li>
+					<li>What am I missing?</li>
+					<li>Lets talk now or you can Slack me in private.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>7. Homework assignment!</h3>
+				<ul>
+					<li>
+						<a href="https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-2-Homework">To do today
+							and tomorrow afternoons.</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>Thanks!</h2>
+				<ul>
+					<li>More about me: <a href="https://twitter.com/joelgethinlewis">@joelgethinlewis</a></li>
+					<li>Get in contact via the CCI Slack!</a>
+					</li>
+					<li>Website:<br><a href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/">https://jgl.github.io/CCIDiploma-AutumnWinter2019</a>
+					</li>
+					<li>Today's slides:<br><a href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_04.html">https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_04.html</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			// Push each slide change to the browser history
+			history: true,
+			// Display a presentation progress bar
+			progress: true,
+			// Display the page number of the current slide
+			slideNumber: 'c/t',
+
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>

@@ -163,25 +163,27 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - Looping - doing things many times, but using logic to stop.
 - Moving from two spatial dimensions to three.
 - Some artists working in three dimensions.
+- Feedback.
 - Afternoon - [homework exercises](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-2-Homework) from Code as Creative Medium - Conditional Testing and Iteration as well as continuing introduction to p5.js.
-- Feedback, how was this week? What worked? What didn't?
 
 ## Week 3 (week 41 of 52, commencing Monday 7th October 2019) - Functions and Objects
 
 - Group meditation.
 - Questions?
+- Functions and recursion.
+- Object-oriented programming.
 - The Jacquard Loom, Charles Babbage and Ada Lovelace. Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking.
 - Anni Albers, Agnes Martin.
-- Afternoons - exerises from Code as Creative Medium - Curves, Graphic Elements.
+- Fuzzy logic, Computer Vision, Neural Networks, Adam Harvey, Bias and Anti-Facist AI.
 - Feedback, how was this week? What worked? What didn't?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-3-Homework)
+- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-3-Homework) - exercises from Code as Creative Medium - Curves, Graphic Elements.
 
 ## Week 4 (week 42 of 52, commencing Monday 14th October 2019) - Compressing and Linking
 
 - Group meditation.
 - Questions?
-- Moving to four dimensions.
-- Artists working with the space and time.
+- Moving from three spatial dimensions to four and others!
+- Some artists working in four dimensions.
 - The Fast Fourier Transform.
 - Three kinds of feedback: audio, visual and interactive.
 - The History of the Internet, The History of the Graphical User Interface, The History of Hypertext.
