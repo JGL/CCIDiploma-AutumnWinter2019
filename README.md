@@ -1,6 +1,6 @@
 # Diploma in Creative Computing at the Creative Coding Institute, Camberwell, University of the Arts, London
 
-Lecture slides, wiki, notes and examples from units 1 and 3 of the Creative Coding Institute's Diploma in Creative Computing.
+Lecture slides, wiki, notes and examples from units 1 and 3 of the Creative Coding Institute Diploma in Creative Computing.
 
 ## Info
 
@@ -62,7 +62,7 @@ At the end of this term you should have the following outcomes, with subheadings
 
 2. Build physical computing prototypes (_Process_, _Realisation_)
 
-- [arduino](https://www.arduino.cc/)
+- [Arduino](https://www.arduino.cc/)
 - [Raspberry Pi](https://www.raspberrypi.org/)
 
 3. Evaluate and discuss creative computing practice (_Enquiry, Communication_)
@@ -102,7 +102,7 @@ However, at the end of term, you will be assessed individually. Unit 1 and Unit 
 
 In addition to the formal assessment at the end of the term, I will be setting weekly homework projects. We will discuss and work on the weekly projects on Monday and Tuesday afternoons. The weekly homework projects won't be assessed, but will be in your interest to complete.
 
-The homework projects will be based on exercises from _Code as Creative Medium: An Educator’s Handbook_ by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/).
+The homework projects will be based on exercises from _Code as Creative Medium: An educator's handbook_ by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/).
 
 Remember that small, short, technical exercises can be the root of much bigger ideas and projects that could last a lifetime.
 
@@ -115,7 +115,7 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - My motivations and my aims for the next year.
 - What are your aims for the next year?
 - Doing this right thing/Ethics.
-- Copying/Plagarism.
+- Copying/Plagiarism.
 - Some artists.
 - Practice.
 - How to criticise well.
@@ -133,7 +133,7 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - Introduction to JavaScript.
 - Processing, p5.js, ml5.js, pts.js.
 - p5.js web editor, Glitch.com, Visual Studio Code.
-- Daniel Shifmann, The Nature of Code, The Coding Train, Rune Madsen, Programming Design Systems.
+- Daniel Shiffman, The Nature of Code, The Coding Train, Rune Madsen, Programming Design Systems.
 - openFrameworks, Machine Learning for Artists and the oFBook.
 - zzz.dog, three.js, Mr Doob and A-Frame and AR.
 - Unreal Engine, Blender and Rubber Duck Debugging.
@@ -168,17 +168,27 @@ Remember that small, short, technical exercises can be the root of much bigger i
 
 ## Week 3 (week 41 of 52, commencing Monday 7th October 2019) - Functions and Objects
 
+### Monday - Functions
+
 - Group meditation.
 - Questions?
 - Functions and recursion.
-- Object-oriented programming.
 - The Jacquard Loom, Charles Babbage and Ada Lovelace. Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking.
-- Anni Albers, Agnes Martin.
-- Fuzzy logic, Computer Vision, Neural Networks, Adam Harvey, Bias and Anti-Facist AI.
-- Feedback, how was this week? What worked? What didn't?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-3-Homework) - exercises from Code as Creative Medium - Curves, Graphic Elements.
+- Feedback.
+- Afternoon - [homework exercises](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-3-Homework) from Code as Creative Medium - Curves.
+
+### Tuesday - Objects
+
+- Group meditation.
+- Questions?
+- Object-oriented programming.
+- Fuzzy logic, Computer Vision, Neural Networks, Adam Harvey, Bias and Anti-Fascist AI.
+- Feedback.
+- Afternoon - [homework exercises](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-3-Homework) from Code as Creative Medium - Graphic Elements.
 
 ## Week 4 (week 42 of 52, commencing Monday 14th October 2019) - Compressing and Linking
+
+### Monday - Compressing
 
 - Group meditation.
 - Questions?
@@ -186,15 +196,25 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - Some artists working in four dimensions.
 - The Fast Fourier Transform.
 - Three kinds of feedback: audio, visual and interactive.
+- Feedback.
+- Afternoon - Modernism trip with CCI BSc group and [Dr Charlotte Webb](https://twitter.com/otheragent) to [Victoria and Albert Museum](https://www.vam.ac.uk/).
+
+### Tuesday - Linking
+
+- Group meditation.
+- Questions?
 - The History of the Internet, The History of the Graphical User Interface, The History of Hypertext.
 - Encryption.
 - Trees and Graphs.
+- Google, Facebook and CS183.
+- Decentralisation: P2P, Blockchain and IPFS and Filecoin, Merkle Trees and DAT and Beaker.
 - Mark Lombardi, Listening Post and Celestial Mechanics
-- Afternoons - Monday afternoon trip with BSc group and Dr Charlotte Webb to Modernism V&A trip then Tuesday exercises from Code as Creative Medium - Images and / Time and Interactivity.
-- Feedback, how was this week? What worked? What didn't?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-4-Homework)
+- Feedback.
+- Afternoon - [homework exercises](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-4-Homework) from Code as Creative Medium - Images and Time and Interactivity.
 
 ## Week 5 (week 43 of 52, commencing Monday 21st October 2019) - Consuming and Thinking
+
+### Monday - Consuming
 
 - Group meditation.
 - Questions?
@@ -203,27 +223,41 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - William Gibson and Atemporality.
 - Disney eating the Commons and Relational Aesthetics.
 - Aaron Schwarz, Mark Fisher, Rutger Bregman and Timothy Morton.
-- Bonus: The EM Spectrum, how long a nanosecond is, Hedy Lamarr and - Frequency Hopping.
+- The EM Spectrum, how long a nanosecond is, Hedy Lamarr and - Frequency Hopping.
+- Feedback.
+- Afternoon - [homework exercises](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-5-Homework) from Code as Creative Medium - Text and Language with [rita.js](https://rednoise.org/rita/).
+
+### Tuesday - Thinking
+
+- Group meditation.
+- Questions?
 - Seymour Papert and Alan Kay
 - Conway's Game of Life, Cellular Automata and rules 30 and 110.
 - Boids, Evolved Virtual Creatures and emergence.
 - Joscha Bach and a Computational Universe.
 - Pace layering, Pattern Language and the purpose of Art.
-- Afternoons - exercises from Code as Creative Medium - Simulation and Text and Language with [rita.js](https://rednoise.org/rita/).
-- Feedback, how was this week? What worked? What didn't?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-5-Homework)
+- Feedback.
+- Afternoon - [homework exercises](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-5-Homework) from Code as Creative Medium - Simulation.
 
 ## Week 6 (week 44 of 52, commencing Monday 28th October 2019) - Doing
+
+### Monday - Doing
 
 - Group meditation.
 - Questions?
 - Memo Atken, Mario Klingemann, Golan Levin, Art+Com, Daito Manabe.
 - Win without Pitching, You're my favourite client, Hell Yeah, Austin Kleon, Tim Pychyl, Ira Glass, Virgil Abloh and Bret Victor.
-- Paper prototyping afternoon.
-- <https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-eights> - crazy eights to start?
-- Feedback, how was this week? What worked? What didn't?
-- Afternoons - exercises from Code as Creative Medium - Sound and Visualisation.
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-6-Homework)
+- Feedback.
+- Afternoon - [homework exercises](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-7-Homework) from Code as Creative Medium - Sound and Visualisation.
+
+### Tuesday - More Doing
+
+- Group meditation.
+- Questions?
+- Sprint and Crazy Eights
+- Paper prototyping
+- Feedback.
+- Afternoon - more paper prototyping
 
 ## Week 7 (week 45 of 52, commencing Monday 4th November 2019) - Split point - moving to Mondays for Unit 1, Tuesdays for Unit 3
 

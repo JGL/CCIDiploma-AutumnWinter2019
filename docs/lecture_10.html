@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Creative Computing - Autumn Winter 2019: Week 5: Lecture 10: Thinking</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/whiteJGL.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>Creative Computing</h2>
+				<p>Joel Gethin Lewis</p>
+				<p>Week 5: Lecture 10: Thinking</p>
+			</section>
+			<section>
+				<h3>What I'm going to talk about now:</h3>
+				<ol start=0>
+					<li>Group meditation.</li>
+					<li>Questions?</li>
+					<li>Seymour Papert and Alan Kay</li>
+					<li>Conway's Game of Life, Cellular Automata and rules 30 and 110.</li>
+					<li>Boids, Evolved Virtual Creatures and emergence.</li>
+					<li>Joscha Bach and a Computational Universe.</li>
+					<li>Pace layering, Pattern Language and the purpose of Art.</li>
+					<li>Bonus: System Art, Everywhere and Another Sky.</li>
+					<li>Feedback.</li>
+					<li>Homework Assignment - exercises from Code as Creative Medium - Simulation</li>
+				</ol>
+			</section>
+			<section>Are you recording Joel? Have you taken the register first?</section>
+			<section>
+				<h3>0. Group Meditation</h3>
+				<ol>
+					<li>TBC.</li>
+				</ol>
+			</section>
+			<section>
+				<h3>1. Questions?</h3>
+				<ul>
+					<li>All questions allowed!</li>
+					<li>2 minutes alone on post it notes, then double group size every 1 minutes until it's the whole
+						group.</li>
+					<li>This idea came from <a href="http://thesystemis.com/">Zach Lieberman</a>. He does this exercise
+						at the start of every session of <a href="https://sfpc.io/">School of Poetic Computation in New
+							York</a>.</li>
+				</ul />
+			</section>
+			<section>
+				<h3>2. Seymour Papert and Alan Kay.</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Seymour_Papert">Seymour Papert</a> was interested in learning theories - especially in how computers could make a difference in how children learn. <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)">Logo</a> was the first computer language that I encountered as a child - all based around drawing with a <a href="https://en.wikipedia.org/wiki/Turtle_(robot)">Turtle</a>.</li>
+					<li>Papert pioneered the idea of Microworlds - places where you could safely experiment to think about how to change the future, rather than train children for the jobs of today.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Alan_Kay">Alan Kay</a> was inspired by Papert and others and went on to pioneer thinking around <a href="https://en.wikipedia.org/wiki/Object-oriented_programming">Object Orientated programming</a> and <a href="https://en.wikipedia.org/wiki/Window_(computing)">Overlapping Window Graphical User Interfaces</a> both at <a href="https://en.wikipedia.org/wiki/PARC_(company)">Xerox Parc</a>.</li>
+					<li>Three great talks by Kay: <a href="https://www.youtube.com/watch?v=gTAghAJcO1o">The Future Doesn't Have to Be Incremental</a>, <a href="https://www.youtube.com/watch?v=FvmTSpJU-Xc">Normal Considered Harmful</a> and <a href="https://www.youtube.com/watch?v=R1R2jH4PQEo">Education That Takes Us To The 22nd Century</a>.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>3. Conway's Game of Life, Cellular Automata and rules 30 and 110.</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> was invented by John Conway in 1970. Conway created it to simulate simple biological life with four rules.</li>
+					<li>It turns out you can even make <a href="https://www.youtube.com/watch?v=xP5-iIeKXE8">Game of Life inside of Game of Life</a>.</li>
+					<li>There was an existing field called <a href="https://en.wikipedia.org/wiki/Cellular_automaton">Cellular Automata</a> which began in the 1940's. <a href="https://en.wikipedia.org/wiki/Nils_Aall_Barricelli"></a>Nils Aall Barricelli was a pioneer in this area. <a href="http://cultureandcommunication.org/galloway/Barricelli/">A demonstration of his work</a>. </li>
+					<li><a href="https://en.wikipedia.org/wiki/Stephen_Wolfram">Stephen Wolfram</a> did further work on CA's in the 1980's discovering several interesting systems - including <a href="https://en.wikipedia.org/wiki/Rule_30">Rule 30</a> (which is unpredictable) and <a href="https://en.wikipedia.org/wiki/Rule_110">Rule 110</a> (which has been proven to be <a href="https://en.wikipedia.org/wiki/Turing_completeness">Turing complete</a>).</li>
+					<li>There is also <a href="https://en.wikipedia.org/wiki/The_Game_(mind_game)">The Game</a>, which I just lost (again).</li>
+				</ul>
+			</section>
+			<section>
+				<h3>4. Boids, Evolved Virtual Creatures and emergence.</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Boids">Boids</a> was an artifical life system developed by Craig Reynolds in 1986. It simulated realistic flocking with just three simple rules. Compare the simulation to this <a href="https://www.youtube.com/watch?v=eakKfY5aHmY">murmuration</a>.</li>
+					<li><a href="https://www.youtube.com/watch?v=JBgG_VSP7f8">Evolved Virtual Creatures</a> was a film created by <a href="https://en.wikipedia.org/wiki/Karl_Sims">Karl Sims</a> in 1994 that showed how virtual creatures could evolve the ability to walk.</li>
+					<li>Both are examples of <a href="https://en.wikipedia.org/wiki/Emergence">emergence</a> - or the idea that "the whole is greater than the sum of the parts".</li>
+					<li>A <a href="https://meltingasphalt.com/interactive/going-critical/">great interactive essay on complex systems</a>, how things spread - from viruses to knowledge. This area of interactive essays is interesting in itself - <a href="https://twitter.com/flantz/status/1128413192504455168">a good Twitter thread on the subject</a>.</li>
+					<li><a href="http://learnjsdata.com/">Learning JS Data</a> - "this guide teaches the basics of manipulating data using JavaScript in the browser, or in node.js." - very useful tutorial on reading in data in Javascript.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>5. Joscha Bach and a Computational Universe.</h3>
+				<ul>
+					<li><a href="http://bach.ai/">Joscha Bach</a> is a researcher in Cognitive Science & Artificial Intelligence.</li>
+					<li>He's done a <a href="http://bach.ai/videos/">series of talks</a> at the annual <a href="https://en.wikipedia.org/wiki/Chaos_Communication_Congress">Chaos Communication Congress</a>.</li>
+					<li>My favourite talk of his is titled <a href="http://bach.ai/machine-dreams/">"Machine Dreams - Dreaming Machines"</a> is concerned with the idea that the basis of the entire universe is computational. His talk discusses a computational approach to <a href="https://plato.stanford.edu/entries/epistemology/">Epistemology</a> (what the fuck?), <a href="https://plato.stanford.edu/entries/metaphysics/"></a>Metaphysics (why the fuck?) and finally <a href="https://plato.stanford.edu/entries/logic-ontology/">Ontology</a> (the fuck?).</li>
+				</ul>
+			</section>
+			<section>
+				<h3>6. Pace layering, Pattern Language and the purpose of Art</h3>
+				<ul>
+					<li><a href="https://jods.mitpress.mit.edu/pub/issue3-brand">Pace layering</a> is <a href="https://en.wikipedia.org/wiki/Stewart_Brand">Stewart Brand</a>'s six layered framework for how a healthy society works.</li>
+					<li>Pace layering grew out of Brand's thinking that he developed for his book <a href="https://en.wikipedia.org/wiki/How_Buildings_Learn">"How Buildings Learn"</a>.</li>
+					<li>This grew out of Frank Duffy's work on <a href="https://en.wikipedia.org/wiki/Shearing_layers">Shearing Layers</a>.</li>
+					<li>Christopher Alexander's book <a href="https://en.wikipedia.org/wiki/Pattern_language">"A Pattern Language"</a> which proposed ways of thinking in a variety of fields, as a way of helping people solve very large complex problems.</li>
+					<li>Brand argues that it is Art's responsibility to experiment in all areas, in order to test the future and create ways of thinking about new problems or opportunities.</li>
+					<li>An example of this would be <a href="https://en.wikipedia.org/wiki/Penrose_stairs">MC Eschers collaboration with Rodger Penrose</a>. Bonus: <a href="http://languagelog.ldc.upenn.edu/nll/?p=39477">Escher sentences</a>.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>7. System Art, The Digital Commons, Everywhere and Another Sky.</h3>
+				<ul>
+					<li>I am a Systems Artist. I make systems that people interact with to make new things.</li>
+					<li>I want to re-establish the Digital Commons, and eventually the Analogue one.</li>
+					<li>Everywhere uses solar powered computers to allow people to make their own networks and to put content in the real world around them via Augmented Reality.</li>
+					<li>Another Sky is a global scale sculpture that creates a new ecosystem in the sky above our heads, fed by interaction with a an augmented reality layer based on the topography of the planet, inverted.</li>
+					<li>What kind of things are you interested in? What could you work on for five years? 10 years? The rest of your life? What do you care about?</li>
+				</ul>
+			</section>
+			<section>
+				<h3>8. Feedback</h3>
+				<ul>
+					<li>What's working?</li>
+					<li>What's not working?</li>
+					<li>What am I missing?</li>
+					<li>Lets talk now or you can Slack me in private.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>9. Homework assignment!</h3>
+				<ul>
+					<li>
+						<a href="https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-5-Homework">Exercises from Code as Creative Medium - Simulation</a>.</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Thanks!</h2>
+				<ul>
+					<li>More about me: <a href="https://twitter.com/joelgethinlewis">@joelgethinlewis</a></li>
+					<li>Get in contact via the CCI Slack!</a>
+					</li>
+					<li>Website:<br><a href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/">https://jgl.github.io/CCIDiploma-AutumnWinter2019</a>
+					</li>
+					<li>Today's slides:<br><a href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_10.html">https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_10.html</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			// Push each slide change to the browser history
+			history: true,
+			// Display a presentation progress bar
+			progress: true,
+			// Display the page number of the current slide
+			slideNumber: 'c/t',
+
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>

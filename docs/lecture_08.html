@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Creative Computing - Autumn Winter 2019: Week 4: Lecture 8: Linking</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/whiteJGL.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>Creative Computing</h2>
+				<p>Joel Gethin Lewis</p>
+				<p>Week 4: Lecture 8: Linking</p>
+			</section>
+			<section>
+				<h3>What I'm going to talk about now:</h3>
+				<ol start=0>
+					<li>Group meditation.</li>
+					<li>Questions?</li>
+					<li>The History of the Internet, The History of the Graphical User Interface, The History of Hypertext.</li>
+					<li>Encryption.</li>
+					<li>Trees and Graphs.</li>
+					<li>Google, Facebook and CS183.</li>
+					<li>Decentralisation: P2P, Blockchain and IPFS and Filecoin, Merkle Trees and DAT and Beaker.</li>
+					<li>Mark Lombardi, Listening Post and Celestial Mechanics</li>
+					<li>Feedback.</li>
+					<li>Homework Assignment - exercises from Code as Creative Medium - Graphic Elements.</li>
+				</ol>
+			</section>
+			<section>Are you recording Joel? Have you taken the register first?</section>
+			<section>
+				<h3>0. Group Meditation</h3>
+				<ol>
+					<li>TBC.</li>
+				</ol>
+			</section>
+			<section>
+				<h3>1. Questions?</h3>
+				<ul>
+					<li>All questions allowed!</li>
+					<li>2 minutes alone on post it notes, then double group size every 1 minutes until it's the whole
+						group.</li>
+					<li>This idea came from <a href="http://thesystemis.com/">Zach Lieberman</a>. He does this exercise
+						at the start of every session of <a href="https://sfpc.io/">School of Poetic Computation in New
+							York</a>.</li>
+				</ul />
+			</section>
+			<section>
+				<h3>2. The History of the Internet, The History of the Graphical User Interface, The History of Hypertext.</h3>
+				<ul>
+					<li>It all began with <a href="https://en.wikipedia.org/wiki/Cybernetics">Cybernetics</a>.</li>
+					<li>1941: <a href="https://en.wikipedia.org/wiki/The_Garden_of_Forking_Paths">The Garden of Forking Paths</a> by <a href="https://en.wikipedia.org/wiki/Jorge_Luis_Borges">Jorge Luis Borges</a>.
+					<li>1945: <a href="https://en.wikipedia.org/wiki/As_We_May_Think">As We May Think</a> by <a href="https://en.wikipedia.org/wiki/Vannevar_Bush">Vannevar Bush</a>. <a href="https://en.wikipedia.org/wiki/History_of_the_Internet">History of the Internet</a>.</li>
+					<li>1958: <a href="https://en.wikipedia.org/wiki/Semi-Automatic_Ground_Environment">SAGE system</a> for Nuclear Defence.</li>
+					<li>1960: <a href="https://en.wikipedia.org/wiki/Man-Computer_Symbiosis">Man-Computer Symbiosis</a> by <a href="https://en.wikipedia.org/wiki/J._C._R._Licklider">J. C. R. Licklider</a>. <a href="https://en.wikipedia.org/wiki/History_of_the_graphical_user_interface">History of the GUI</a>. <a href="https://en.wikipedia.org/wiki/NLS_(computer_system)">NLS</a> and the <a href="https://en.wikipedia.org/wiki/The_Mother_of_All_Demos">Mother of All Demos</a>.</li>
+					<li>1960: <a href="https://en.wikipedia.org/wiki/Project_Xanadu">Project Xanadu</a> by <a href="https://en.wikipedia.org/wiki/Ted_Nelson">Ted Nelson</a>. <a href="https://en.wikipedia.org/wiki/History_of_hypertext">History of Hypertext</a>. <a href="https://en.wikipedia.org/wiki/Computer_Lib/Dream_Machines">Computer Lib/Dream Machines</a>. <a href="https://www.youtube.com/watch?v=Bqx6li5dbEY">Ted Nelson in Herzog's "Lo and Behold"</a></li>
+				</ul>
+			</section>
+			<section>
+				<h3>3. Encryption.</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Caesar_cipher">Caesar cipher</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Public-key_cryptography">Public-key cryptography</a>, <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA</a> and <a href="https://en.wikipedia.org/wiki/Clifford_Cocks">Clifford Cocks</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Steganography">Steganography</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Machine_Identification_Code">Machine Identification Code</a> / <a href="https://en.wikipedia.org/wiki/Voynich_manuscript">Voynich Manuscript</a> / <a href="https://en.wikipedia.org/wiki/EURion_constellation">EURion Constellation</a>.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>4. Trees and Graphs.</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Tree_(data_structure)">Trees</a> and <a href="https://en.wikipedia.org/wiki/Graph_(abstract_data_type)">Graphs</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg">Seven Bridges of Königsberg</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling salesman problem</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Dijkstra's algorithm</a>.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>5. Google, Facebook and CS183.</h3>
+				<ul>
+					<li>You can think of Google as a way of brute forcing a two way world wide web - the way it was meant to be in the first place if Ted Nelson had had his way.</li>
+					<li>I have respect for Google as the orginal <a href="https://en.wikipedia.org/wiki/PageRank">PageRank</a> algorithm was a technical breakthrough in web search. Facebook on the other hand was just in the right place at the right time, with good marketing.</li>
+					<li>Peter Thiel was one of the original investors in Facebook, you can read about his startup methods in <a href="http://blakemasters.com/peter-thiels-cs183-startup">the course that he taught at Stanford, CS183</a>. <a href="https://medium.com/cs183c-blitzscaling-class-collection">More notes from the revised course here</a>. Basically have a public and private plan and go for monopoly.</li>
+					<li>Interestingly another early investor was CIA, via its investment arm, <a href="https://en.wikipedia.org/wiki/In-Q-Tel">In-Q-Tel</a>. People will survey themselves these days! Another key Thiel company is <a href="https://en.wikipedia.org/wiki/Palantir_Technologies">Palantir Technologies</a>.</li>
+					<li>Thiel is the subject of the documentary <a href="https://en.wikipedia.org/wiki/Nobody_Speak:_Trials_of_the_Free_Press">Nobody Speak</a>, about freedom of the press and billionaires censoring of it.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>6. Decentralisation: P2P, Blockchain and IPFS and Filecoin, Merkle Trees and DAT and Beaker.</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Decentralization ">Decentralisation</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Peer-to-peer">Peer to Peer</a> - means you don't need a central authority any more.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Blockchain">Blockchain</a> - means you don't need trust any more.</li>
+					<li>Two interesting projects have emerged in the past few years: <a href="https://en.wikipedia.org/wiki/Dat_(software)">Dat</a> and <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">InterPlanetary File System</a>.
+					<li>There is <a href="https://tomjwatson.com/blog/decentralising-the-web/">some controversy about IPFS</a> and it's methods of funding, indeed the <a href="https://github.com/ipfs/faq/issues/119#issuecomment-218278390">IPFS emerged from Dat</a>.</li>
+					<li>A <a href="https://www.youtube.com/watch?v=2RCwZDRwk48">good talk the need for IPFS</a> by <a href="http://juan.benet.ai/">Juan Benet, one of its creators</a>.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>7. Mark Lombardi, Listening Post and Celestial Mechanics.</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Mark_Lombardi">Mark Lombardi</a>. <a href="https://www.npr.org/templates/story/story.php?storyId=1487185">NPR podcast on him</a>. <a href="https://www.pierogi2000.com/artists/mark-lombardi/">Images of his work</a>. Bonus bonus: watch all of <a href="https://en.wikipedia.org/wiki/Adam_Curtis">Adam Curtis's</a> documentaries.</li>
+					<li><a href="http://ear-test.earstudio.com/?p=62">Listening Post by Mark Hansen and Ben Rubin</a>. <a href="http://modes.io/listening-post-ten-years-on/">Article on Listening Post 10 years on</a>.</li>
+					<li><a href="http://www.cmlab.com/">Celestial Mechanics by Scott Hessels and Gabriel Dunne</a>.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>8. Feedback</h3>
+				<ul>
+					<li>What's working?</li>
+					<li>What's not working?</li>
+					<li>What am I missing?</li>
+					<li>Lets talk now or you can Slack me in private.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>9. Homework assignment!</h3>
+				<ul>
+					<li>
+						<a href="https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-4-Homework">Exercises from Code as Creative Medium - Images and Time and Interactivity.</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>Thanks!</h2>
+				<ul>
+					<li>More about me: <a href="https://twitter.com/joelgethinlewis">@joelgethinlewis</a></li>
+					<li>Get in contact via the CCI Slack!</a>
+					</li>
+					<li>Website:<br><a href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/">https://jgl.github.io/CCIDiploma-AutumnWinter2019</a>
+					</li>
+					<li>Today's slides:<br><a href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_08.html">https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_08.html</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			// Push each slide change to the browser history
+			history: true,
+			// Display a presentation progress bar
+			progress: true,
+			// Display the page number of the current slide
+			slideNumber: 'c/t',
+
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>

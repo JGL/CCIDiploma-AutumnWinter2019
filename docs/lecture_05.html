@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Creative Computing - Autumn Winter 2019: Week 3: Lecture 5: Functions</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/whiteJGL.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>Creative Computing</h2>
+				<p>Joel Gethin Lewis</p>
+				<p>Week 3: Lecture 5: Functions</p>
+			</section>
+			<section>
+				<h3>What I'm going to talk about now:</h3>
+				<ol start=0>
+					<li>Group meditation.</li>
+					<li>Questions?</li>
+					<li>Functions and recursion.</li>
+					<li>The Jacquard Loom, Charles Babbage and Ada Lovelace.</li>
+					<li>Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking.</li>
+					<li>Feedback.</li>
+					<li>Homework Assignment - exercises from Code as Creative Medium - Curves</li>
+				</ol>
+			</section>
+			<section>Are you recording Joel? Have you taken the register first?</section>
+			<section>
+				<h3>0. Group Meditation</h3>
+				<ol>
+					<li>TBC.</li>
+				</ol>
+			</section>
+			<section>
+				<h3>1. Questions?</h3>
+				<ul>
+					<li>All questions allowed!</li>
+					<li>2 minutes alone on post it notes, then double group size every 1 minutes until it's the whole
+						group.</li>
+					<li>This idea came from <a href="http://thesystemis.com/">Zach Lieberman</a>. He does this exercise
+						at the start of every session of <a href="https://sfpc.io/">School of Poetic Computation in New
+							York</a>.</li>
+				</ul />
+			</section>
+			<section>
+				<h3>2. Functions and recursion.</h3>
+				<ul>
+					<li>Instead of writing long lists of commands, one after another, functions allow programmers to package up functionality into smaller mini programs, known as <a href="https://en.wikipedia.org/wiki/Subroutine">functions or subroutines</a>.</li>
+					<li>Take input and return an output - an example might be a function that returns the square of an input number, or as complicated as <a href="https://en.wikipedia.org/wiki/42_(number)#The_Hitchhiker's_Guide_to_the_Galaxy">the answer to everything</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Recursion">Recursion</a> is when something is defined in terms of itself. <a href="https://en.wikipedia.org/wiki/Recursion#Recursive_humor">Recursive humour is funny</a>. Recursion is also found in graphic design, art and cooking. In <a href="https://en.wikipedia.org/wiki/Recursion_(computer_science)">computer science recursion</a> is when a function calls itself repeatedly. The method of working out the <a href="https://en.wikipedia.org/wiki/Recursion_(computer_science)#Recursive_procedures">Factorial of any number</a> is a classic example.</li>
+					<li>A <a href="https://en.wikipedia.org/wiki/Fractal">fractal</a> is a good example of something that is visually recursive.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>3. The Jacquard Loom, Charles Babbage and Ada Lovelace.</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Jacquard_loom">The Jacquard Loom</a> was the worlds first programmable object.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a> is the inventor of the concept of a digital computer. Babbage was aware of the Jacquard Loom and expanded upon the punch card to invent both the <a href="https://en.wikipedia.org/wiki/Difference_engine">Difference Engine</a> and the <a href="https://en.wikipedia.org/wiki/Analytical_Engine">Analytical Engine</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a> was the worlds first computer programmer, even realising that the computer could be used to make music and art.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>4. Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking.</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/P%C4%81%E1%B9%87ini">Pāṇini</a> pioneered a grammar that incorporated metarules and recursion - making the first <a href="https://en.wikipedia.org/wiki/Formal_language">formal language</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi">Muhammad ibn Musa al-Khwarizmi</a> formalised algebra, his name gave rise to the word algorithm and introduced the decimal system to the western world.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Ismail_al-Jazari">Ismail al-Jazari</a> invented programmable machines, including programmable humanoid robots and an astronomical clock considered the first programmable analogue computer.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>4. Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking (continued).</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing</a> formalised the concept of the algorithm and computation in general. During the Second World War he led the team that broke German Naval codes. He went on to design one of the first stored program computers and did pioneering work in <a href="https://en.wikipedia.org/wiki/Morphogenesis">Morphogenesis</a>, or how living things form themselves. He was prosecuted by the British Government for being gay, and committed suicide in 1954. If an system is capable of general computation it is said to be <a href="https://en.wikipedia.org/wiki/Turing_completeness">Turing complete</a>. The <a href="https://en.wikipedia.org/wiki/Turing_test">Turing test</a> is a test of machine intelligence in comparison to human intelligence.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Tommy_Flowers">Tommy Flowers</a> was the engineer who built Turing's machine.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>4. Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking (continued).</h3>
+				<ul>
+					<li><a href="https://en.wikipedia.org/wiki/Grace_Hopper">Grace Hopper</a> invented the compiler for translating between human readable code and machine code.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(scientist)">Margaret Hamilton</a> led the development of on-board flight software for NASAs Apollo Moon missions.</li>
+					<li><a href="https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science">A further list of pioneers in Computer Science</a>.</li>
+					<li><a href="https://en.wikipedia.org/wiki/Software_bug">Software bugs</a> began with real insects!</li>
+					<li><a href="https://en.wikipedia.org/wiki/Hacker_culture">Hacker culture</a> is about curiosity, not breaking into computer systems. You are all hackers now.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>5. Feedback</h3>
+				<ul>
+					<li>What's working?</li>
+					<li>What's not working?</li>
+					<li>What am I missing?</li>
+					<li>Lets talk now or you can Slack me in private.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>6. Homework assignment!</h3>
+				<ul>
+					<li>
+						<a href="https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-3-Homework">Exercises from Code as Creative Medium - Curves.</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>Thanks!</h2>
+				<ul>
+					<li>More about me: <a href="https://twitter.com/joelgethinlewis">@joelgethinlewis</a></li>
+					<li>Get in contact via the CCI Slack!</a>
+					</li>
+					<li>Website:<br><a href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/">https://jgl.github.io/CCIDiploma-AutumnWinter2019</a>
+					</li>
+					<li>Today's slides:<br><a href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_05.html">https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_05.html</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			// Push each slide change to the browser history
+			history: true,
+			// Display a presentation progress bar
+			progress: true,
+			// Display the page number of the current slide
+			slideNumber: 'c/t',
+
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
