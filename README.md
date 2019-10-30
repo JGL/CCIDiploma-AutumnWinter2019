@@ -77,7 +77,9 @@ At the end of this term you should have the following outcomes, with subheadings
 
 During the first half of the term, Unit 1 and 3 teaching will be intermingled, in order to make most efficient use of our time.
 
-During the second half of the term, Unit 1 will be taught on Monday mornings, with Unit 3 being taught on Tuesday mornings.
+During the second half of the term, Unit 1 will be taught on Mondays by me, with Unit 3 being taught on Tuesdays by [Julia Makivic](https://juliamakivic.com/).
+
+[Unit 2 (Computational Futures and AI)](https://github.com/fefegha/Computational-Futures-And-AI) will be taught throughout by [Alex Fefegha](https://www.comuzi.xyz/).
 
 ## Weekly Structure (first half of term)
 
@@ -85,7 +87,7 @@ Monday morning: lectures and discussions Monday afternoon: homework Tuesday morn
 
 ## Weekly Structure (second half of term, week 7 onwards inclusive)
 
-Monday morning: lectures and discussions Monday afternoon: visits, talks and seminars Tuesday morning: lectures and discussions Tuesday afternoon: workshops, homework and project work, my office hours
+Monday morning: lectures on Mathematics and programming. Monday afternoon: visits, talks and seminars Tuesday morning: physical computing lectures Tuesday afternoon: continued physical computing lectures and my office hours.
 
 ## Assessment
 
@@ -96,7 +98,7 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 However, at the end of term, you will be assessed individually. Unit 1 and Unit 3 are assessed in different ways:
 
 - Unit 1 - "Creative coding and creative computing frameworks" - this unit will be assessed in two ways - via multiple choice test and practical exam. In the multiple choice test you will be presented with a series of questions relating explicitly to course content. You must choose between up to 4 potentially correct answers per question. In the Practical Exam you will be individually asked to write a basic program to demonstrate the application of creative coding to a set problem. Each part is worth 50% of the unit mark.
-- Unit 3 - "Creative Practice: Visual coding and physical computing" - this unit will be assessed via the presentation of a project that you will work towards throughout this first term. This unit is about putting skills from Unit 1 (and others) to use in a project. You will be assessed on your presentation and the ‘slide deck’ from the presentation.
+- Unit 3 - "Creative Practice: Visual coding and physical computing" - this unit will be assessed via the presentation of a project that you will work towards throughout the first term and half of the second. This unit is about putting skills from Unit 1 (and others) to use in a project. You will be assessed on your presentation and the ‘slide deck’ from the presentation.
 
 ## Homework Projects
 
@@ -257,23 +259,22 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - Sprint and Crazy Eights
 - Paper prototyping
 - Feedback.
-- Afternoon - more paper prototyping
 
-## Week 7 (week 45 of 52, commencing Monday 4th November 2019) - Split point - moving to Mondays for Unit 1, Tuesdays for Unit 3
+## Week 7 (week 45 of 52, commencing Monday 4th November 2019) - Split point - moving to project work on Mondays and physical computing on Tuesdays
 
 - Group meditation.
 - Questions?
 - Introduction to [C++](https://en.m.wikipedia.org/wiki/C++), via [openFrameworks](https://openframeworks.cc/), show red c++ book, show oF book, might be a bit out of date, but we are going to update it for the community
 - We could build a network of [environmental sensors](https://shop.pimoroni.com/products/enviro-plus)
-- <https://twitter.com/RebeccaFiebrink/status/1159424339063791618> - project speed dating, match everyone up with someone else, ready for mock presentation on week 9.
+- <https://twitter.com/RebeccaFiebrink/status/1159424339063791618> - project speed dating, match everyone up with someone else, ready for practise presentation on weeks 8 and 10.
 - Feedback, how was this week? What worked? What didn't?
 - [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-7-Homework)
 
 ## Week 8 (week 46 of 52, commencing Monday 11th November 2019) - TBC
 
 - Group meditation.
-- Emotion/Creative Computing practice with Dr Charlotte Webb and BSc students.
 - Questions?
+- Practice project presentation.
 - Feedback, how was this week? What worked? What didn't?
 - [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-8-Homework)
 
@@ -281,7 +282,6 @@ Remember that small, short, technical exercises can be the root of much bigger i
 
 - Group meditation.
 - Questions?
-- Mock final presentation.
 - Feedback, how was this week? What worked? What didn't?
 - [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-9-Homework)
 
@@ -289,6 +289,7 @@ Remember that small, short, technical exercises can be the root of much bigger i
 
 - Group meditation.
 - Questions?
+- Practice project presentation.
 - Feedback, how was this week? What worked? What didn't?
 - [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-10-Homework)
 
