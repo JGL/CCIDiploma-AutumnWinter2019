@@ -260,42 +260,36 @@ Remember that small, short, technical exercises can be the root of much bigger i
 - Paper prototyping
 - Feedback.
 
-## Week 7 (week 45 of 52, commencing Monday 4th November 2019) - Split point - moving to project work on Mondays and physical computing on Tuesdays
+## Week 7 (week 45 of 52, commencing Monday 4th November 2019)
 
 - Group meditation.
 - Questions?
-- Introduction to [C++](https://en.m.wikipedia.org/wiki/C++), via [openFrameworks](https://openframeworks.cc/), show red c++ book, show oF book, might be a bit out of date, but we are going to update it for the community
-- We could build a network of [environmental sensors](https://shop.pimoroni.com/products/enviro-plus)
-- <https://twitter.com/RebeccaFiebrink/status/1159424339063791618> - project speed dating, match everyone up with someone else, ready for practise presentation on weeks 8 and 10.
+- Show and tell presentations
+- Project work and maths/coding catch-up.
 - Feedback, how was this week? What worked? What didn't?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-7-Homework)
 
-## Week 8 (week 46 of 52, commencing Monday 11th November 2019) - TBC
+## Week 8 (week 46 of 52, commencing Monday 11th November 2019) - Split point - moving to project work on Mondays and physical computing on Tuesdays
+
+- Group meditation.
+- Introduction to [C++](https://en.m.wikipedia.org/wiki/C++), via [openFrameworks](https://openframeworks.cc/).
+- Questions?
+- Practice project presentation.
+- Feedback, how was this week? What worked? What didn't?
+
+## Week 9 (week 47 of 52, commencing Monday 18th November 2019)
+
+- Group meditation.
+- Questions?
+- Project work and maths/coding catch-up.
+- Feedback, how was this week? What worked? What didn't?
+
+## Week 10 (week 48 of 52, commencing Monday 25th November 2019)
 
 - Group meditation.
 - Questions?
 - Practice project presentation.
 - Feedback, how was this week? What worked? What didn't?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-8-Homework)
 
-## Week 9 (week 47 of 52, commencing Monday 18th November 2019) - TBC
+## Week 11 (week 49 of 52, commencing Monday 2nd December 2019)
 
-- Group meditation.
-- Questions?
-- Feedback, how was this week? What worked? What didn't?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-9-Homework)
-
-## Week 10 (week 48 of 52, commencing Monday 25th November 2019) - TBC
-
-- Group meditation.
-- Questions?
-- Practice project presentation.
-- Feedback, how was this week? What worked? What didn't?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-10-Homework)
-
-## Week 11 (week 49 of 52, commencing Monday 2nd December 2019) - TBC
-
-- Group meditation.
-- Questions?
-- Feedback, how was this week? What worked? What didn't?
-- [Homework Assignment](https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-11-Homework)
+- N/A JGL is out of office.
