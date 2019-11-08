@@ -16,6 +16,9 @@ Lecture slides, wiki, notes and examples from units 1 and 3 of the Creative Codi
 
 ## Code of Conduct / Community Statement is cloned from p5.js
 
+You can find the UAL Disciplinary Code For Students here: 
+[Disciplinary Code For Students](https://www.arts.ac.uk/study-at-ual/academic-regulations/student-regulations/disciplinary-code-for-students)
+
 You can find our code of conduct here: [code_of_conduct.md](CODE_OF_CONDUCT.md).
 
 Golan Levin also offers a useful thought from his children's school:
