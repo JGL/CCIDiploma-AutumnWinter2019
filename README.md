@@ -33,9 +33,9 @@ Golan Levin also offers a useful thought from his children's school:
 
 ## Learning Outcomes and platforms for doing so
 
-At the end of this term you should have the following outcomes, with subheadings for methods and platforms we will use to do so. To be clear, I want you to obtain knowledge and then use that to make projects. My aim is to have every student graduate with new creative computing core knowledge and a portfolio of projects that relate that new creative computing knowledge to their chosen BA subject elsewhere at University of the Arts London (UAL).
+At the end of this block (midway through term 2) you should have the following outcomes, with subheadings for methods and platforms we will use to do so. To be clear, I want you to obtain knowledge and then use that to make projects. My aim is to have every student graduate with new creative computing core knowledge and a portfolio of projects that relate that new creative computing knowledge to their chosen BA subject elsewhere at University of the Arts London (UAL).
 
-### Unit 1: "Creative coding and creative computing frameworks"
+### Unit 1 / Block 1: "Creative coding and creative computing frameworks"
 
 1. Code creative computing assets in relevant languages (_Knowledge_, _Process_)
 
@@ -54,7 +54,7 @@ At the end of this term you should have the following outcomes, with subheadings
 - [GitHub](https://github.com/)
 - [Glitch.com](https://glitch.com/)
 
-### Unit 3: "Creative Practice: Visual coding and physical computing"
+### Unit 3 / Block 1: "Creative Practice: Visual coding and physical computing"
 
 1. Code interactive visuals (_Process_, _Realisation_)
 
@@ -76,19 +76,21 @@ At the end of this term you should have the following outcomes, with subheadings
 - workshops
 - discussions
 
-## Term Structure
+## Block/Term Structure
 
-During the first half of the term, Unit 1 and 3 teaching will be intermingled, in order to make most efficient use of our time.
+During the first half of term 1, Unit 1 and 3 teaching will be intermingled, in order to make most efficient use of our time.
 
-During the second half of the term, Unit 1 will be taught on Mondays by me, with Unit 3 being taught on Tuesdays by [Julia Makivic](https://juliamakivic.com/).
+During the second half of term 1, Unit 1 will be taught on Mondays by me, with Unit 3 being taught on Tuesdays by [Julia Makivic](https://juliamakivic.com/).
 
 [Unit 2 (Computational Futures and AI)](https://github.com/fefegha/Computational-Futures-And-AI) will be taught throughout by [Alex Fefegha](https://www.comuzi.xyz/).
 
-## Weekly Structure (first half of term)
+The first half of term two will be spent doing rehersals and mocks for presentations and exams. We will then move on to block 2, units 4, 5 and 6.
+
+## Weekly Structure (first half of term 1)
 
 Monday morning: lectures and discussions Monday afternoon: homework Tuesday morning: lectures and discussions Tuesday afternoon: homework, my office hours
 
-## Weekly Structure (second half of term, week 7 onwards inclusive)
+## Weekly Structure (second half of term 1, week 7 onwards inclusive)
 
 Monday morning: lectures on Mathematics and programming. Monday afternoon: visits, talks and seminars Tuesday morning: physical computing lectures Tuesday afternoon: continued physical computing lectures and my office hours.
 
@@ -98,10 +100,10 @@ Monday morning: lectures on Mathematics and programming. Monday afternoon: visit
 
 Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104?s=11">latest research</a>, I've decided to shift us from pairs to threes. After all, <a href="https://www.youtube.com/watch?v=np0YIaHv6LQ">three is a magic number</a>.
 
-However, at the end of term, you will be assessed individually. Unit 1 and Unit 3 are assessed in different ways:
+However, at the end of block 1 (halfway through term 2), you will be assessed individually. Unit 1 and Unit 3 are assessed in different ways:
 
-- Unit 1 - "Creative coding and creative computing frameworks" - this unit will be assessed in two ways - via multiple choice test and practical exam. In the multiple choice test you will be presented with a series of questions relating explicitly to course content. You must choose between up to 4 potentially correct answers per question. In the Practical Exam you will be individually asked to write a basic program to demonstrate the application of creative coding to a set problem. Each part is worth 50% of the unit mark.
-- Unit 3 - "Creative Practice: Visual coding and physical computing" - this unit will be assessed via the presentation of a project that you will work towards throughout the first term and half of the second. This unit is about putting skills from Unit 1 (and others) to use in a project. You will be assessed on your presentation and the ‘slide deck’ from the presentation.
+- Unit 1 - "Creative coding and creative computing frameworks" - this unit will be assessed in two ways - via multiple choice test and practical coding exam. In the multiple choice test you will be presented with a series of questions relating explicitly to course content. You must choose between up to 4 potentially correct answers per question. In the Practical Exam you will be individually asked to write a basic program to demonstrate the application of creative coding to a set problem. Each part is worth 50% of the unit mark. You will be given 1 hour to complete 20 multiple choice questions. You will be given 2 hours to complete the practical coding exam.
+- Unit 3 - "Creative Practice: Visual coding and physical computing" - this unit will be assessed via the presentation of a project that you will work towards throughout the first term and half of the second. This unit is about putting skills from Unit 1 (and others) to use in a project. You will be assessed on your presentation and the ‘slide deck’ from the presentation, which may contain elements you didn't present. You will be given 5 minutes to present, with 5 minutes of discussion.
 
 ## Homework Projects
 
