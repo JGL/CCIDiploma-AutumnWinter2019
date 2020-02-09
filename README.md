@@ -59,14 +59,10 @@ At the end of this block (midway through term 2) you should have the following o
 1. Code interactive visuals (_Process_, _Realisation_)
 
 - [p5.js](https://p5js.org/)
-- [openFrameworks](https://openframeworks.cc/)
-- [vvvv](https://vvvv.org/)
-- [Unreal Engine](https://www.unrealengine.com/)
 
 2. Build physical computing prototypes (_Process_, _Realisation_)
 
 - [Arduino](https://www.arduino.cc/)
-- [Raspberry Pi](https://www.raspberrypi.org/)
 
 3. Evaluate and discuss creative computing practice (_Enquiry, Communication_)
 
