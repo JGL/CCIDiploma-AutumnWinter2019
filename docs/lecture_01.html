@@ -7,20 +7,17 @@
 
 	<title>Creative Computing - Autumn Winter 2019: Week 1: Lecture 1: Introduction</title>
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/whiteJGL.css">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="reveal/reset.css">
+	<link rel="stylesheet" href="reveal/reveal.css">
+	<link rel="stylesheet" href="reveal/theme/white.css" id="theme">
 
 	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
-
-	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-	</script>
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
 </head>
 
 <body>
@@ -79,8 +76,7 @@
 					<li>Let's start with a presesention I gave at <a href="https://aho.no/en/">AHO in Oslo</a> at the
 						start of
 						September,
-						2019: <a
-							href="https://joelgethinlewis.com/presentations/AHOPresentationMotivations2019/#/">Motivations,
+						2019: <a href="https://joelgethinlewis.com/presentations/AHOPresentationMotivations2019/#/">Motivations,
 							Positions,
 							Approaches</a></li>
 				</ul>
@@ -101,10 +97,10 @@
 					<li>I only ask that you pay attention and ask questions if you have them. I'd really encourage
 						you to take the time to watch the films and read the references I put up. Think of them as
 						<a href="https://en.wikipedia.org/wiki/Cheating_in_video_games#Cheat_codes">cheat codes</a>
-						to get you to the next level quicker than I did.</li>
+						to get you to the next level quicker than I did.
+					</li>
 					<li>To <b>introduce</b> lots of interesting concepts from many areas so that you know the magic
-						word to search for if you want to know more. <a
-							href="https://en.wikipedia.org/wiki/Obfuscation">Obfuscation</a> is a BIG problem.</li>
+						word to search for if you want to know more. <a href="https://en.wikipedia.org/wiki/Obfuscation">Obfuscation</a> is a BIG problem.</li>
 					<li>To teach you how to code, to start you on that path and point you in the
 						right direction.</li>
 					<li>To teach the history of creative computing, and by extension, computing, creativity and
@@ -114,15 +110,11 @@
 			<section>
 				<h3>2. My motivations and my aims for the next year (continued).</h3>
 				<ul>
-					<li>To teach you see problems at many levels (<a
-							href="https://en.wikipedia.org/wiki/Abstraction">abstraction</a>), break down problems
+					<li>To teach you see problems at many levels (<a href="https://en.wikipedia.org/wiki/Abstraction">abstraction</a>), break down problems
 						(<a href="https://en.wikipedia.org/wiki/Decomposition_(computer_science)">decomposition</a>),
-						find the order in them (<a
-							href="https://en.wikipedia.org/wiki/Pattern_recognition_(psychology)">pattern
-							recognition</a>), make solutions using a series of steps (<a
-							href="https://en.wikipedia.org/wiki/Algorithm">algorithms</a>) and realise that you
-						might be able to use that solution in lots of areas (<a
-							href="https://en.wikipedia.org/wiki/Generalization">generalisation</a>).</li>
+						find the order in them (<a href="https://en.wikipedia.org/wiki/Pattern_recognition_(psychology)">pattern
+							recognition</a>), make solutions using a series of steps (<a href="https://en.wikipedia.org/wiki/Algorithm">algorithms</a>) and realise that you
+						might be able to use that solution in lots of areas (<a href="https://en.wikipedia.org/wiki/Generalization">generalisation</a>).</li>
 					<li>Most of all, to <b>teach</b> you to be <b>autodidacts</b>, and, as previously mentioned, to
 						blow your mind <b>at least</b> once per lecture.</li>
 					<li>First task: <b>what</b> is an <b>autodidact</b>? </li>
@@ -132,8 +124,7 @@
 				<h3>2. My motivations and my aims for the next year (continued).</h3>
 				<ul>
 					<li>I'm inspired by other people the most.</li>
-					<li>Here are <a
-							href="https://www.harpersbazaar.com/culture/art-books-music/g7916/best-female-artists/">some
+					<li>Here are <a href="https://www.harpersbazaar.com/culture/art-books-music/g7916/best-female-artists/">some
 							artists</a>. Have you heard of them before?</li>
 					<li>Here are <a href="https://www.courses.tegabrain.com/CC17/list-of-artists/">some more
 							artists</a>. Have you
@@ -142,16 +133,14 @@
 					<li>You are not children, just less experienced (in some things!) than me. That's it.</li>
 					<li>My name is Joel, please call me that. Not Sir or Mr.Lewis or anything else. Apart from Cyber or
 						JGL.</li>
-					<li>This year I want to get better at 3D software - does anyone know about that? Does anyone know <a
-							href="https://www.blender.org/">Blender</a>?</li>
+					<li>This year I want to get better at 3D software - does anyone know about that? Does anyone know <a href="https://www.blender.org/">Blender</a>?</li>
 				</ul>
 			</section>
 			<section>
 				<h3>2. My motivations and my aims for the next year (continued).</h3>
 				<ul>
 					<li><img src="img/SisterCoritaKentsRulesForArtCollege.jpg" width="33%"></li>
-					<li>For more information, see this post about <a
-							href="https://www.brainpickings.org/2012/08/10/10-rules-for-students-and-teachers-john-cage-corita-kent/">Sister
+					<li>For more information, see this post about <a href="https://www.brainpickings.org/2012/08/10/10-rules-for-students-and-teachers-john-cage-corita-kent/">Sister
 							Corita Kent</a> and her teaching.</li>
 				</ul>
 			</section>
@@ -188,8 +177,7 @@
 			<section>
 				<h3>3. What are your aims for the next year? Some suggestions... (continued)</h3>
 				<ul>
-					<li>I think this is great advice for how to make progress to bigger goals:<img
-							src="img/HenrikKnibergCarDiagram.jpg" width="50%"></li>
+					<li>I think this is great advice for how to make progress to bigger goals:<img src="img/HenrikKnibergCarDiagram.jpg" width="50%"></li>
 				</ul>
 			</section>
 			<section>
@@ -198,8 +186,7 @@
 					<li>You are going to go further faster than anyone else here.</li>
 					<li>Faster than the BSc, the MSc, the PhD's or the staff.</li>
 					<li>The reason is that you already have a practice.</li>
-					<li>Creative computing knowledge can be applied to ANY practice. See the <a
-							href="https://mitpress.mit.edu/books/computational-thinking">MIT Computational Thinking
+					<li>Creative computing knowledge can be applied to ANY practice. See the <a href="https://mitpress.mit.edu/books/computational-thinking">MIT Computational Thinking
 							book</a> to see how
 						researchers in many fields are learning computational knowledge that even computer scientists
 						don't use, as
@@ -274,13 +261,12 @@
 					<li>Everyone say hi to me in <a href="https://slack.com/">Slack</a>!</li>
 					<li>If you want to use <a href="https://slack.com/">Slack</a> to build a document for the lecture
 						that’s fine. Or
-						<a href="docs.google.com">Google Docs</a>? Or <a
-							href="https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite">EtherPad</a>?
+						<a href="docs.google.com">Google Docs</a>? Or <a href="https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite">EtherPad</a>?
 						Or
-						<a href="https://code.visualstudio.com/"> Studio Code</a> <a
-							href="https://code.visualstudio.com/blogs/2017/11/15/live-share"></a>"Live Share"</a> (now
+						<a href="https://code.visualstudio.com/"> Studio Code</a> <a href="https://code.visualstudio.com/blogs/2017/11/15/live-share"></a>"Live Share"</a> (now
 						out of
-						beta)?</li>
+						beta)?
+					</li>
 				</ul>
 			</section>
 			<section>
@@ -350,8 +336,7 @@
 				<h3>5. Copying/Plagarism.</h3>
 				<ul>
 					<li><img src="img/JarmuschQuote.jpg" width="33%"></li>
-					<li>This is the <a
-							href="https://www.arts.ac.uk/study-at-ual/academic-regulations/student-regulations/referencing-and-academic-misconduct">official
+					<li>This is the <a href="https://www.arts.ac.uk/study-at-ual/academic-regulations/student-regulations/referencing-and-academic-misconduct">official
 							UAL</a> page on referencing and academic misconduct.
 					</li>
 				</ul>
@@ -384,8 +369,7 @@
 				<h3>6. Some artists: Agnes Martin, Anni Albers, Lilian Schwarz, Nam June Paik, Bruce Nauman
 					(continued).</h3>
 				<ul>
-					<li><a
-							href="https://www.tate.org.uk/whats-on/tate-modern/exhibition/agnes-martin/who-is-agnes-martin">Agnes
+					<li><a href="https://www.tate.org.uk/whats-on/tate-modern/exhibition/agnes-martin/who-is-agnes-martin">Agnes
 							Martin</a></li>
 					<li>
 						<blockquote>"To progress in life you must give up the things that you do not like. Give up doing
@@ -415,10 +399,8 @@
 				<ul>
 					<li><a href="http://lillian.com/">Lilian
 							Schwarz</a></li>
-					<li><iframe src="https://player.vimeo.com/video/98960229?portrait=0" width="640" height="360"
-							frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-						<p><a href="https://vimeo.com/98960229">Lillian Schwartz</a> from <a
-								href="https://vimeo.com/147750678">Ben
+					<li><iframe src="https://player.vimeo.com/video/98960229?portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+						<p><a href="https://vimeo.com/98960229">Lillian Schwartz</a> from <a href="https://vimeo.com/147750678">Ben
 								Rubin</a>.</p>
 					</li>
 				</ul>
@@ -467,12 +449,11 @@
 			<section>
 				<h3>8. How to criticise well.</h3>
 				<ul>
-					<li><iframe src="https://player.vimeo.com/video/38247060" width="640" height="360" frameborder="0"
-							allow="autoplay; fullscreen" allowfullscreen></iframe>
+					<li><iframe src="https://player.vimeo.com/video/38247060" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 						<p><a href="https://vimeo.com/38247060">Austin&#039;s Butterfly: Building Excellence in Student
 								Work</a> from
-							<a href="https://vimeo.com/elschools">EL Education</a> on <a
-								href="https://vimeo.com">Vimeo</a>.</p>
+							<a href="https://vimeo.com/elschools">EL Education</a> on <a href="https://vimeo.com">Vimeo</a>.
+						</p>
 						via <a href="https://twitter.com/rgordon/status/1159276903670439937">Russell Gordon</a>
 					</li>
 				</ul>
@@ -486,8 +467,7 @@
 					<li>We will use Post It notes for crits, giving them to the subject afterwards.</li>
 					<li>I have a strict "don't touch other peoples computers" rule. I'm never going to type for you or
 						fix something for you by doing it for you.</li>
-					<li>Please use the <a
-							href="https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Reading-List">reading
+					<li>Please use the <a href="https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Reading-List">reading
 							list</a>,
 						please use my links if you buy. The library should be getting them all, cc me in on an email to
 						them if it
@@ -512,14 +492,12 @@
 			<section>
 				<h3>10. Memory in computers, storing numbers and words.</h3>
 				<ul>
-					<li>Computers use binary to represent everything in <a
-							href="https://en.wikipedia.org/wiki/Computer_memory">memory</a>.</li>
+					<li>Computers use binary to represent everything in <a href="https://en.wikipedia.org/wiki/Computer_memory">memory</a>.</li>
 					<li>A bit is a Binary digIT.</li>
 					<li>A byte is eight bits. (BEight).</li>
 					<li>A kilobyte is 1,024 (2^10) bytes, <a href="https://en.wikipedia.org/wiki/Kilobyte">mostly</a>.
 					</li>
-					<li>A megabyte is 1,048,576 (2^20) bytes, <a
-							href="https://en.wikipedia.org/wiki/Megabyte">mostly</a>.</li>
+					<li>A megabyte is 1,048,576 (2^20) bytes, <a href="https://en.wikipedia.org/wiki/Megabyte">mostly</a>.</li>
 				</ul>
 			</section>
 			<section>
@@ -538,11 +516,9 @@
 				<ul>
 					<li>There are different ways of storing numbers and words in computers, as whole these values
 						are known as <a href="https://en.wikipedia.org/wiki/Data_type">Data types</a>.</li>
-					<li>Whole numbers or Integers are stored as <a
-							href="https://en.wikipedia.org/wiki/Integer_%28computer_science%29">ints</a>. E.g. 0, 5,
+					<li>Whole numbers or Integers are stored as <a href="https://en.wikipedia.org/wiki/Integer_%28computer_science%29">ints</a>. E.g. 0, 5,
 						-567.</li>
-					<li>Numbers which are in between whole numbers are stored as <a
-							href="https://en.wikipedia.org/wiki/Floating-point_arithmetic">Floating Points or
+					<li>Numbers which are in between whole numbers are stored as <a href="https://en.wikipedia.org/wiki/Floating-point_arithmetic">Floating Points or
 							floats</a>. E.g. 3.142 or -5.66343.</li>
 					<li>As these numbers are stored in certain amounts of memory, if they get too big (or negative,
 						or precise) the computer can run out of memory to store them, or overflow. This is bad. See
@@ -552,11 +528,8 @@
 			<section>
 				<h3>10. Memory in computers, storing numbers and words (continued).</h3>
 				<ul>
-					<li>You can also store individual characters of the alphabet as <a
-							href="https://en.wikipedia.org/wiki/Character_(computing)">chars</a>.</li>
-					<li>However, there are different encodings of characters - <a
-							href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> and <a
-							href="https://en.wikipedia.org/wiki/Unicode">Unicode</a> for example - which allow
+					<li>You can also store individual characters of the alphabet as <a href="https://en.wikipedia.org/wiki/Character_(computing)">chars</a>.</li>
+					<li>However, there are different encodings of characters - <a href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> and <a href="https://en.wikipedia.org/wiki/Unicode">Unicode</a> for example - which allow
 						different character sets to be displayed.</li>
 					<li>You can store words (multiple characters) in strings - which are actually just lists of
 						chars.</li>
@@ -564,10 +537,8 @@
 					</li>
 					<li>Strings are one <a href="https://en.wikipedia.org/wiki/Dimension">dimensional</a> arrays.
 						We'll be discussing two dimensional arrays next time.</li>
-					<li>Data can be stored as fixed values (<a
-							href="https://en.wikipedia.org/wiki/Constant_(computer_programming)">constants</a>) or
-						values that can change (<a
-							href="https://en.wikipedia.org/wiki/Variable_%28computer_science%29">variables</a>).
+					<li>Data can be stored as fixed values (<a href="https://en.wikipedia.org/wiki/Constant_(computer_programming)">constants</a>) or
+						values that can change (<a href="https://en.wikipedia.org/wiki/Variable_%28computer_science%29">variables</a>).
 					</li>
 				</ul>
 			</section>
@@ -630,19 +601,14 @@
 			<section>
 				<h3>11. How big things are (continued).</h3>
 				<ul>
-					<li>Artwork: Powers of Ten by the Eames Office<br><iframe width="560" height="315"
-							src="https://www.youtube-nocookie.com/embed/0fKBhvDjuy0?rel=0&amp;showinfo=0"
-							frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+					<li>Artwork: Powers of Ten by the Eames Office<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0fKBhvDjuy0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
 				</ul>
 			</section>
 			<section>
 				<h3>12. Really really really big numbers</h3>
 				<ul>
-					<li>For more information, see <a
-							href="https://waitbutwhy.com/2014/11/1000000-grahams-number.html">this article on the
-							fantastic Wait But Why</a>.<br><iframe width="560" height="315"
-							src="https://www.youtube-nocookie.com/embed/GuigptwlVHo?rel=0&amp;controls=0"
-							frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+					<li>For more information, see <a href="https://waitbutwhy.com/2014/11/1000000-grahams-number.html">this article on the
+							fantastic Wait But Why</a>.<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GuigptwlVHo?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
 				</ul>
 			</section>
 			<section>
@@ -650,7 +616,8 @@
 				<ul>
 					<li>
 						<a href="https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-1-Homework">To do today
-							and tomorrow afternoons.</a></li>
+							and tomorrow afternoons.</a>
+					</li>
 				</ul>
 			</section>
 			<section>
@@ -659,51 +626,35 @@
 					<li>More about me: <a href="https://twitter.com/joelgethinlewis">@joelgethinlewis</a></li>
 					<li>Get in contact via the CCI Slack!</a>
 					</li>
-					<li>Website:<br><a
-							href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/">https://jgl.github.io/CCIDiploma-AutumnWinter2019</a>
+					<li>Website:<br><a href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/">https://jgl.github.io/CCIDiploma-AutumnWinter2019</a>
 					</li>
-					<li>Today's slides:<br><a
-							href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_01.html">https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_01.html</a>
+					<li>Today's slides:<br><a href="https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_01.html">https://jgl.github.io/CCIDiploma-AutumnWinter2019/lecture_01.html</a>
 					</li>
 				</ul>
 			</section>
 		</div>
 	</div>
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
-
+	<script src="reveal/reveal.js"></script>
+	<script src="plugin/zoom/zoom.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/search/search.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
 	<script>
-		// More info about config & dependencies:
-		// - https://github.com/hakimel/reveal.js#configuration
-		// - https://github.com/hakimel/reveal.js#dependencies
-		Reveal.initialize({
-			// Push each slide change to the browser history
-			history: true,
-			// Display a presentation progress bar
-			progress: true,
-			// Display the page number of the current slide
-			slideNumber: 'c/t',
 
-			dependencies: [{
-					src: 'plugin/markdown/marked.js'
-				},
-				{
-					src: 'plugin/markdown/markdown.js'
-				},
-				{
-					src: 'plugin/notes/notes.js',
-					async: true
-				},
-				{
-					src: 'plugin/highlight/highlight.js',
-					async: true,
-					callback: function () {
-						hljs.initHighlightingOnLoad();
-					}
-				}
-			]
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			center: true,
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
 		});
+
 	</script>
 </body>
 

@@ -7,20 +7,17 @@
 
 	<title>Creative Computing - Autumn Winter 2019: Week 3: Lecture 6: Objects</title>
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/whiteJGL.css">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="reveal/reset.css">
+	<link rel="stylesheet" href="reveal/reveal.css">
+	<link rel="stylesheet" href="reveal/theme/white.css" id="theme">
 
 	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
-
-	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-	</script>
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
 </head>
 
 <body>
@@ -101,7 +98,8 @@
 				<h3>5. Homework assignment!</h3>
 				<ul>
 					<li>
-						<a href="https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-3-Homework">Exercises from Code as Creative Medium - Graphic Elements.</a></li>
+						<a href="https://github.com/JGL/CCIDiploma-AutumnWinter2019/wiki/Week-3-Homework">Exercises from Code as Creative Medium - Graphic Elements.</a>
+					</li>
 				</ul>
 			</section>
 			<section>
@@ -119,40 +117,26 @@
 		</div>
 	</div>
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
-
+	<script src="reveal/reveal.js"></script>
+	<script src="plugin/zoom/zoom.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/search/search.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
 	<script>
-		// More info about config & dependencies:
-		// - https://github.com/hakimel/reveal.js#configuration
-		// - https://github.com/hakimel/reveal.js#dependencies
-		Reveal.initialize({
-			// Push each slide change to the browser history
-			history: true,
-			// Display a presentation progress bar
-			progress: true,
-			// Display the page number of the current slide
-			slideNumber: 'c/t',
 
-			dependencies: [{
-					src: 'plugin/markdown/marked.js'
-				},
-				{
-					src: 'plugin/markdown/markdown.js'
-				},
-				{
-					src: 'plugin/notes/notes.js',
-					async: true
-				},
-				{
-					src: 'plugin/highlight/highlight.js',
-					async: true,
-					callback: function () {
-						hljs.initHighlightingOnLoad();
-					}
-				}
-			]
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			center: true,
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
 		});
+
 	</script>
 </body>
 
